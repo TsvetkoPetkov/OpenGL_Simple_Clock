@@ -6,14 +6,12 @@ set(CMAKE_CXX_STANDARD 17)
 set(CMAKE_CXX_STANDARD_REQUIRED ON)
 set(CMAKE_CXX_EXTENSIONS OFF)
 
-# Prefer Release by default
 if(NOT CMAKE_BUILD_TYPE AND NOT CMAKE_CONFIGURATION_TYPES)
   set(CMAKE_BUILD_TYPE Release CACHE STRING "Build type" FORCE)
 endif()
 
-# --------------------------------------
 # GLAD (local, from root/glad)
-# --------------------------------------
+
 add_library(glad STATIC
     glad/src/glad.c
 )
@@ -26,9 +24,8 @@ if(UNIX)
     target_link_libraries(glad PUBLIC dl)
 endif()
 
-# --------------------------------------
 # GLFW (fetched automatically)
-# --------------------------------------
+
 include(FetchContent)
 set(GLFW_BUILD_DOCS OFF CACHE BOOL "" FORCE)
 set(GLFW_BUILD_TESTS OFF CACHE BOOL "" FORCE)
@@ -40,9 +37,6 @@ FetchContent_Declare(
 )
 FetchContent_MakeAvailable(glfw)
 
-# --------------------------------------
-# Executable
-# --------------------------------------
 add_executable(clock_sim
     src/main.cpp
     src/helper.cpp
@@ -53,7 +47,7 @@ target_include_directories(clock_sim PRIVATE
 )
 
 target_link_libraries(clock_sim PRIVATE
-    glad          # <-- added
+    glad        
     glfw
 )
 
