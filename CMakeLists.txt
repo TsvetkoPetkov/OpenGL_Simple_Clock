@@ -10,8 +10,6 @@ if(NOT CMAKE_BUILD_TYPE AND NOT CMAKE_CONFIGURATION_TYPES)
   set(CMAKE_BUILD_TYPE Release CACHE STRING "Build type" FORCE)
 endif()
 
-# GLAD (local, from root/glad)
-
 add_library(glad STATIC
     glad/src/glad.c
 )
@@ -23,8 +21,6 @@ target_include_directories(glad PUBLIC
 if(UNIX)
     target_link_libraries(glad PUBLIC dl)
 endif()
-
-# GLFW (fetched automatically)
 
 include(FetchContent)
 set(GLFW_BUILD_DOCS OFF CACHE BOOL "" FORCE)
