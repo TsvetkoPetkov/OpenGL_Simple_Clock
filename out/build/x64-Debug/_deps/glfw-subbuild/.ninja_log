@@ -1,0 +1,21 @@
+# ninja log v6
+6	78	7862030623685631	glfw-populate-prefix/src/glfw-populate-stamp/glfw-populate-mkdir	aae4c28375045afd
+6	78	7862030623685631	C:/Users/Цецо/Desktop/clock/out/build/x64-Debug/_deps/glfw-subbuild/glfw-populate-prefix/src/glfw-populate-stamp/glfw-populate-mkdir	aae4c28375045afd
+7	7965	7862031094854307	glfw-populate-prefix/src/glfw-populate-stamp/glfw-populate-download	c37272779f47ed67
+7	7965	7862031094854307	C:/Users/Цецо/Desktop/clock/out/build/x64-Debug/_deps/glfw-subbuild/glfw-populate-prefix/src/glfw-populate-stamp/glfw-populate-download	c37272779f47ed67
+7966	8102	7862031094854307	glfw-populate-prefix/src/glfw-populate-stamp/glfw-populate-update	b94708bcb9d761c8
+7966	8102	7862031094854307	C:/Users/Цецо/Desktop/clock/out/build/x64-Debug/_deps/glfw-subbuild/glfw-populate-prefix/src/glfw-populate-stamp/glfw-populate-update	b94708bcb9d761c8
+8102	8156	7862031096729605	glfw-populate-prefix/src/glfw-populate-stamp/glfw-populate-patch	f07aab4384a6feda
+8102	8156	7862031096729605	C:/Users/Цецо/Desktop/clock/out/build/x64-Debug/_deps/glfw-subbuild/glfw-populate-prefix/src/glfw-populate-stamp/glfw-populate-patch	f07aab4384a6feda
+8156	8210	7862031097198186	glfw-populate-prefix/src/glfw-populate-stamp/glfw-populate-configure	3a2abdd17e13ff52
+8156	8210	7862031097198186	C:/Users/Цецо/Desktop/clock/out/build/x64-Debug/_deps/glfw-subbuild/glfw-populate-prefix/src/glfw-populate-stamp/glfw-populate-configure	3a2abdd17e13ff52
+8210	8261	7862031097823366	glfw-populate-prefix/src/glfw-populate-stamp/glfw-populate-build	a9c53d81f7e95a71
+8210	8261	7862031097823366	C:/Users/Цецо/Desktop/clock/out/build/x64-Debug/_deps/glfw-subbuild/glfw-populate-prefix/src/glfw-populate-stamp/glfw-populate-build	a9c53d81f7e95a71
+8261	8314	7862031098291919	glfw-populate-prefix/src/glfw-populate-stamp/glfw-populate-install	c2adfbeda24ca63a
+8261	8314	7862031098291919	C:/Users/Цецо/Desktop/clock/out/build/x64-Debug/_deps/glfw-subbuild/glfw-populate-prefix/src/glfw-populate-stamp/glfw-populate-install	c2adfbeda24ca63a
+8314	8368	7862031098760682	glfw-populate-prefix/src/glfw-populate-stamp/glfw-populate-test	ff3bac82aa27aed2
+8314	8368	7862031098760682	C:/Users/Цецо/Desktop/clock/out/build/x64-Debug/_deps/glfw-subbuild/glfw-populate-prefix/src/glfw-populate-stamp/glfw-populate-test	ff3bac82aa27aed2
+8369	8441	7862031099624830	CMakeFiles/glfw-populate-complete	e4fb8e3cdcdbb16c
+8369	8441	7862031099624830	glfw-populate-prefix/src/glfw-populate-stamp/glfw-populate-done	e4fb8e3cdcdbb16c
+8369	8441	7862031099624830	C:/Users/Цецо/Desktop/clock/out/build/x64-Debug/_deps/glfw-subbuild/CMakeFiles/glfw-populate-complete	e4fb8e3cdcdbb16c
+8369	8441	7862031099624830	C:/Users/Цецо/Desktop/clock/out/build/x64-Debug/_deps/glfw-subbuild/glfw-populate-prefix/src/glfw-populate-stamp/glfw-populate-done	e4fb8e3cdcdbb16c

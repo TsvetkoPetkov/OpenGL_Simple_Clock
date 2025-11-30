@@ -1,0 +1,11 @@
+C:/Users/Цецо/Desktop/clock/build/CMakeFiles/glad.dir
+C:/Users/Цецо/Desktop/clock/build/CMakeFiles/clock_sim.dir
+C:/Users/Цецо/Desktop/clock/build/CMakeFiles/INSTALL.dir
+C:/Users/Цецо/Desktop/clock/build/CMakeFiles/ALL_BUILD.dir
+C:/Users/Цецо/Desktop/clock/build/CMakeFiles/ZERO_CHECK.dir
+C:/Users/Цецо/Desktop/clock/build/_deps/glfw-build/CMakeFiles/uninstall.dir
+C:/Users/Цецо/Desktop/clock/build/_deps/glfw-build/CMakeFiles/INSTALL.dir
+C:/Users/Цецо/Desktop/clock/build/_deps/glfw-build/CMakeFiles/ALL_BUILD.dir
+C:/Users/Цецо/Desktop/clock/build/_deps/glfw-build/src/CMakeFiles/glfw.dir
+C:/Users/Цецо/Desktop/clock/build/_deps/glfw-build/src/CMakeFiles/update_mappings.dir
+C:/Users/Цецо/Desktop/clock/build/_deps/glfw-build/src/CMakeFiles/INSTALL.dir

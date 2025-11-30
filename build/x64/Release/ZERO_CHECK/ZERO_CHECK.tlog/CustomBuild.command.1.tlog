@@ -1,0 +1,10 @@
+^C:\USERS\ЦЕЦО\DESKTOP\CLOCK\BUILD\CMAKEFILES\8B635153A7743AD071DC809511A4C339\GENERATE.STAMP.RULE
+setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -SC:/Users/Цецо/Desktop/clock -BC:/Users/Цецо/Desktop/clock/build --check-stamp-list CMakeFiles/generate.stamp.list --vs-solution-file C:/Users/Цецо/Desktop/clock/build/ClockSimulation.sln
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd

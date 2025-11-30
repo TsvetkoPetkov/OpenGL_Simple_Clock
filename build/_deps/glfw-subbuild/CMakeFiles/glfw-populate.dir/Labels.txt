@@ -1,0 +1,14 @@
+# Target labels
+ glfw-populate
+# Source files and their labels
+C:/Users/Цецо/Desktop/clock/build/_deps/glfw-subbuild/CMakeFiles/glfw-populate
+C:/Users/Цецо/Desktop/clock/build/_deps/glfw-subbuild/CMakeFiles/31f88540ec8311554295e775852fd1a6/glfw-populate.rule
+C:/Users/Цецо/Desktop/clock/build/_deps/glfw-subbuild/CMakeFiles/66315a41976c1da0b0d4e79f7f66fd11/glfw-populate-complete.rule
+C:/Users/Цецо/Desktop/clock/build/_deps/glfw-subbuild/CMakeFiles/a8fafa5cee91a6d2e9082652ad701607/glfw-populate-build.rule
+C:/Users/Цецо/Desktop/clock/build/_deps/glfw-subbuild/CMakeFiles/a8fafa5cee91a6d2e9082652ad701607/glfw-populate-configure.rule
+C:/Users/Цецо/Desktop/clock/build/_deps/glfw-subbuild/CMakeFiles/a8fafa5cee91a6d2e9082652ad701607/glfw-populate-download.rule
+C:/Users/Цецо/Desktop/clock/build/_deps/glfw-subbuild/CMakeFiles/a8fafa5cee91a6d2e9082652ad701607/glfw-populate-install.rule
+C:/Users/Цецо/Desktop/clock/build/_deps/glfw-subbuild/CMakeFiles/a8fafa5cee91a6d2e9082652ad701607/glfw-populate-mkdir.rule
+C:/Users/Цецо/Desktop/clock/build/_deps/glfw-subbuild/CMakeFiles/a8fafa5cee91a6d2e9082652ad701607/glfw-populate-patch.rule
+C:/Users/Цецо/Desktop/clock/build/_deps/glfw-subbuild/CMakeFiles/a8fafa5cee91a6d2e9082652ad701607/glfw-populate-test.rule
+C:/Users/Цецо/Desktop/clock/build/_deps/glfw-subbuild/CMakeFiles/a8fafa5cee91a6d2e9082652ad701607/glfw-populate-update.rule

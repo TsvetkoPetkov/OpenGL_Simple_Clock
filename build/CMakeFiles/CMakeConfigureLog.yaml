@@ -1,0 +1,1991 @@
+
+---
+events:
+  -
+    kind: "message-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-4.2/Modules/CMakeDetermineSystem.cmake:212 (message)"
+      - "CMakeLists.txt:3 (project)"
+    message: |
+      The system is: Windows - 10.0.19045 - AMD64
+  -
+    kind: "find-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-4.2/Modules/CMakeDetermineCompilerId.cmake:462 (find_file)"
+      - "C:/Program Files/CMake/share/cmake-4.2/Modules/CMakeDetermineCompilerId.cmake:500 (CMAKE_DETERMINE_COMPILER_ID_WRITE)"
+      - "C:/Program Files/CMake/share/cmake-4.2/Modules/CMakeDetermineCompilerId.cmake:8 (CMAKE_DETERMINE_COMPILER_ID_BUILD)"
+      - "C:/Program Files/CMake/share/cmake-4.2/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
+      - "C:/Program Files/CMake/share/cmake-4.2/Modules/CMakeDetermineCXXCompiler.cmake:125 (CMAKE_DETERMINE_COMPILER_ID)"
+      - "CMakeLists.txt:3 (project)"
+    mode: "file"
+    variable: "src_in"
+    description: "Path to a file."
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: true
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "CMakeCXXCompilerId.cpp.in"
+    candidate_directories:
+      - "C:/Program Files/CMake/share/cmake-4.2/Modules/"
+    found: "C:/Program Files/CMake/share/cmake-4.2/Modules/CMakeCXXCompilerId.cpp.in"
+    search_context:
+      ENV{PATH}:
+        - "D:\\Anaconda\\condabin"
+        - "C:\\Windows\\system32"
+        - "C:\\Windows"
+        - "C:\\Windows\\System32\\Wbem"
+        - "C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\"
+        - "C:\\Windows\\System32\\OpenSSH\\"
+        - "C:\\Program Files\\dotnet\\"
+        - "C:\\Program Files\\nodejs\\"
+        - "C:\\Program Files\\Microsoft SQL Server\\Client SDK\\ODBC\\170\\Tools\\Binn\\"
+        - "C:\\Program Files (x86)\\Microsoft SQL Server\\150\\Tools\\Binn\\"
+        - "C:\\Program Files\\Microsoft SQL Server\\150\\Tools\\Binn\\"
+        - "C:\\Program Files\\Microsoft SQL Server\\150\\DTS\\Binn\\"
+        - "C:\\Program Files (x86)\\Windows Kits\\8.1\\Windows Performance Toolkit\\"
+        - "D:\\Anaconda"
+        - "D:\\Anaconda\\Scripts"
+        - "D:\\Anaconda\\Library\\bin"
+        - "D:\\Git\\cmd"
+        - "C:\\Program Files\\Docker\\Docker\\resources\\bin"
+        - "D:\\Windows Kits\\10\\Windows Performance Toolkit\\"
+        - "C:\\Program Files\\CMake\\bin"
+        - "C:\\Users\\\u0426\u0435\u0446\u043e\\.pyenv\\pyenv-win\\bin"
+        - "C:\\Users\\\u0426\u0435\u0446\u043e\\.pyenv\\pyenv-win\\shims"
+        - "D:\\Python\\Scripts\\"
+        - "D:\\Python\\"
+        - "C:\\Users\\\u0426\u0435\u0446\u043e\\AppData\\Local\\Microsoft\\WindowsApps"
+        - "C:\\Users\\\u0426\u0435\u0446\u043e\\.dotnet\\tools"
+        - "C:\\Users\\\u0426\u0435\u0446\u043e\\AppData\\Local\\Programs\\Microsoft VS Code\\bin"
+        - "C:\\Users\\\u0426\u0435\u0446\u043e\\AppData\\Roaming\\npm"
+        - "D:\\PyCharm Community Edition 2022.2.3\\bin"
+        - "C:\\ProgramData\\Microsoft\\Windows\\Start Menu\\Programs\\Git"
+        - "C:\\Users\\\u0426\u0435\u0446\u043e\\.dotnet\\tools"
+        - "D:\\cursor\\resources\\app\\bin"
+  -
+    kind: "message-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-4.2/Modules/CMakeDetermineCompilerId.cmake:17 (message)"
+      - "C:/Program Files/CMake/share/cmake-4.2/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
+      - "C:/Program Files/CMake/share/cmake-4.2/Modules/CMakeDetermineCXXCompiler.cmake:125 (CMAKE_DETERMINE_COMPILER_ID)"
+      - "CMakeLists.txt:3 (project)"
+    message: |
+      Compiling the CXX compiler identification source file "CMakeCXXCompilerId.cpp" succeeded.
+      Compiler:  
+      Build flags: 
+      Id flags:  
+      
+      The output was:
+      0
+      MSBuild version 17.13.19+0d9f5a35a for .NET Framework
+      Build started 30.11.2025 ╨│. 12:35:21.
+      
+      Project "C:\\Users\\╨ж╨╡╤Ж╨╛\\Desktop\\clock\\build\\CMakeFiles\\4.2.0-rc2\\CompilerIdCXX\\CompilerIdCXX.vcxproj" on node 1 (default targets).
+      PrepareForBuild:
+        Creating directory "Debug\\".
+        Structured output is enabled. The formatting of compiler diagnostics will reflect the error hierarchy. See https://aka.ms/cpp/structured-output for more details.
+        Creating directory "Debug\\CompilerIdCXX.tlog\\".
+      InitializeBuildStatus:
+        Creating "Debug\\CompilerIdCXX.tlog\\unsuccessfulbuild" because "AlwaysCreate" was specified.
+        Touching "Debug\\CompilerIdCXX.tlog\\unsuccessfulbuild".
+      ClCompile:
+        C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.43.34808\\bin\\HostX64\\x64\\CL.exe /c /nologo /W0 /WX- /diagnostics:column /Od /D _MBCS /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"Debug\\\\" /Fd"Debug\\vc143.pdb" /external:W0 /Gd /TP /FC /errorReport:queue CMakeCXXCompilerId.cpp
+        CMakeCXXCompilerId.cpp
+      Link:
+        C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.43.34808\\bin\\HostX64\\x64\\link.exe /ERRORREPORT:QUEUE /OUT:".\\CompilerIdCXX.exe" /INCREMENTAL:NO /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /PDB:".\\CompilerIdCXX.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:".\\CompilerIdCXX.lib" /MACHINE:X64 Debug\\CMakeCXXCompilerId.obj
+        CompilerIdCXX.vcxproj -> C:\\Users\\╨ж╨╡╤Ж╨╛\\Desktop\\clock\\build\\CMakeFiles\\4.2.0-rc2\\CompilerIdCXX\\CompilerIdCXX.exe
+      PostBuildEvent:
+        for %%i in (cl.exe) do @echo CMAKE_CXX_COMPILER=%%~$PATH:i
+        :VCEnd
+        CMAKE_CXX_COMPILER=C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.43.34808\\bin\\Hostx64\\x64\\cl.exe
+      FinalizeBuildStatus:
+        Deleting file "Debug\\CompilerIdCXX.tlog\\unsuccessfulbuild".
+        Touching "Debug\\CompilerIdCXX.tlog\\CompilerIdCXX.lastbuildstate".
+      Done Building Project "C:\\Users\\╨ж╨╡╤Ж╨╛\\Desktop\\clock\\build\\CMakeFiles\\4.2.0-rc2\\CompilerIdCXX\\CompilerIdCXX.vcxproj" (default targets).
+      
+      Build succeeded.
+          0 Warning(s)
+          0 Error(s)
+      
+      Time Elapsed 00:00:00.96
+      
+      
+      Compilation of the CXX compiler identification source "CMakeCXXCompilerId.cpp" produced "CompilerIdCXX.exe"
+      
+      Compilation of the CXX compiler identification source "CMakeCXXCompilerId.cpp" produced "CompilerIdCXX.vcxproj"
+      
+      The CXX compiler identification is MSVC, found in:
+        C:/Users/Цецо/Desktop/clock/build/CMakeFiles/4.2.0-rc2/CompilerIdCXX/CompilerIdCXX.exe
+      
+  -
+    kind: "find-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-4.2/Modules/CMakeFindBinUtils.cmake:37 (find_program)"
+      - "C:/Program Files/CMake/share/cmake-4.2/Modules/CMakeFindBinUtils.cmake:65 (__resolve_tool_path)"
+      - "C:/Program Files/CMake/share/cmake-4.2/Modules/CMakeFindBinUtils.cmake:103 (__resolve_linker_path)"
+      - "C:/Program Files/CMake/share/cmake-4.2/Modules/CMakeDetermineCXXCompiler.cmake:206 (include)"
+      - "CMakeLists.txt:3 (project)"
+    mode: "program"
+    variable: "_CMAKE_TOOL_WITH_PATH"
+    description: "Path to a program."
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: false
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: false
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "link"
+    candidate_directories:
+      - "C:/Program Files/Microsoft Visual Studio/2022/Community/VC/Tools/MSVC/14.43.34808/bin/Hostx64/x64/"
+      - "D:/Anaconda/condabin/"
+      - "C:/Windows/System32/"
+      - "C:/Windows/"
+      - "C:/Windows/System32/wbem/"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/"
+      - "C:/Windows/System32/OpenSSH/"
+      - "C:/Program Files/dotnet/"
+      - "C:/Program Files/nodejs/"
+      - "C:/Program Files/Microsoft SQL Server/Client SDK/ODBC/170/Tools/Binn/"
+      - "C:/Program Files (x86)/Microsoft SQL Server/150/Tools/Binn/"
+      - "C:/Program Files/Microsoft SQL Server/150/Tools/Binn/"
+      - "C:/Program Files/Microsoft SQL Server/150/DTS/Binn/"
+      - "C:/Program Files (x86)/Windows Kits/8.1/Windows Performance Toolkit/"
+      - "D:/Anaconda/"
+      - "D:/Anaconda/Scripts/"
+      - "D:/Anaconda/Library/bin/"
+      - "D:/Git/cmd/"
+      - "C:/Program Files/Docker/Docker/resources/bin/"
+      - "D:/Windows Kits/10/Windows Performance Toolkit/"
+      - "C:/Program Files/CMake/bin/"
+      - "C:/Users/\u0426\u0435\u0446\u043e/.pyenv/pyenv-win/bin/"
+      - "C:/Users/\u0426\u0435\u0446\u043e/.pyenv/pyenv-win/shims/"
+      - "D:/Python/Scripts/"
+      - "D:/Python/"
+      - "C:/Users/\u0426\u0435\u0446\u043e/AppData/Local/Microsoft/WindowsApps/"
+      - "C:/Users/\u0426\u0435\u0446\u043e/.dotnet/tools/"
+      - "C:/Users/\u0426\u0435\u0446\u043e/AppData/Local/Programs/Microsoft VS Code/bin/"
+      - "C:/Users/\u0426\u0435\u0446\u043e/AppData/Roaming/npm/"
+      - "D:/PyCharm Community Edition 2022.2.3/bin/"
+      - "C:/ProgramData/Microsoft/Windows/Start Menu/Programs/Git/"
+      - "D:/cursor/resources/app/bin/"
+    searched_directories:
+      - "C:/Program Files/Microsoft Visual Studio/2022/Community/VC/Tools/MSVC/14.43.34808/bin/Hostx64/x64/link.com"
+    found: "C:/Program Files/Microsoft Visual Studio/2022/Community/VC/Tools/MSVC/14.43.34808/bin/Hostx64/x64/link.exe"
+    search_context:
+      ENV{PATH}:
+        - "D:\\Anaconda\\condabin"
+        - "C:\\Windows\\system32"
+        - "C:\\Windows"
+        - "C:\\Windows\\System32\\Wbem"
+        - "C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\"
+        - "C:\\Windows\\System32\\OpenSSH\\"
+        - "C:\\Program Files\\dotnet\\"
+        - "C:\\Program Files\\nodejs\\"
+        - "C:\\Program Files\\Microsoft SQL Server\\Client SDK\\ODBC\\170\\Tools\\Binn\\"
+        - "C:\\Program Files (x86)\\Microsoft SQL Server\\150\\Tools\\Binn\\"
+        - "C:\\Program Files\\Microsoft SQL Server\\150\\Tools\\Binn\\"
+        - "C:\\Program Files\\Microsoft SQL Server\\150\\DTS\\Binn\\"
+        - "C:\\Program Files (x86)\\Windows Kits\\8.1\\Windows Performance Toolkit\\"
+        - "D:\\Anaconda"
+        - "D:\\Anaconda\\Scripts"
+        - "D:\\Anaconda\\Library\\bin"
+        - "D:\\Git\\cmd"
+        - "C:\\Program Files\\Docker\\Docker\\resources\\bin"
+        - "D:\\Windows Kits\\10\\Windows Performance Toolkit\\"
+        - "C:\\Program Files\\CMake\\bin"
+        - "C:\\Users\\\u0426\u0435\u0446\u043e\\.pyenv\\pyenv-win\\bin"
+        - "C:\\Users\\\u0426\u0435\u0446\u043e\\.pyenv\\pyenv-win\\shims"
+        - "D:\\Python\\Scripts\\"
+        - "D:\\Python\\"
+        - "C:\\Users\\\u0426\u0435\u0446\u043e\\AppData\\Local\\Microsoft\\WindowsApps"
+        - "C:\\Users\\\u0426\u0435\u0446\u043e\\.dotnet\\tools"
+        - "C:\\Users\\\u0426\u0435\u0446\u043e\\AppData\\Local\\Programs\\Microsoft VS Code\\bin"
+        - "C:\\Users\\\u0426\u0435\u0446\u043e\\AppData\\Roaming\\npm"
+        - "D:\\PyCharm Community Edition 2022.2.3\\bin"
+        - "C:\\ProgramData\\Microsoft\\Windows\\Start Menu\\Programs\\Git"
+        - "C:\\Users\\\u0426\u0435\u0446\u043e\\.dotnet\\tools"
+        - "D:\\cursor\\resources\\app\\bin"
+  -
+    kind: "find-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-4.2/Modules/CMakeFindBinUtils.cmake:37 (find_program)"
+      - "C:/Program Files/CMake/share/cmake-4.2/Modules/CMakeFindBinUtils.cmake:65 (__resolve_tool_path)"
+      - "C:/Program Files/CMake/share/cmake-4.2/Modules/CMakeFindBinUtils.cmake:104 (__resolve_linker_path)"
+      - "C:/Program Files/CMake/share/cmake-4.2/Modules/CMakeDetermineCXXCompiler.cmake:206 (include)"
+      - "CMakeLists.txt:3 (project)"
+    mode: "program"
+    variable: "_CMAKE_TOOL_WITH_PATH"
+    description: "Path to a program."
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: false
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: false
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "lld-link"
+    candidate_directories:
+      - "C:/Program Files/Microsoft Visual Studio/2022/Community/VC/Tools/MSVC/14.43.34808/bin/Hostx64/x64/"
+      - "D:/Anaconda/condabin/"
+      - "C:/Windows/System32/"
+      - "C:/Windows/"
+      - "C:/Windows/System32/wbem/"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/"
+      - "C:/Windows/System32/OpenSSH/"
+      - "C:/Program Files/dotnet/"
+      - "C:/Program Files/nodejs/"
+      - "C:/Program Files/Microsoft SQL Server/Client SDK/ODBC/170/Tools/Binn/"
+      - "C:/Program Files (x86)/Microsoft SQL Server/150/Tools/Binn/"
+      - "C:/Program Files/Microsoft SQL Server/150/Tools/Binn/"
+      - "C:/Program Files/Microsoft SQL Server/150/DTS/Binn/"
+      - "C:/Program Files (x86)/Windows Kits/8.1/Windows Performance Toolkit/"
+      - "D:/Anaconda/"
+      - "D:/Anaconda/Scripts/"
+      - "D:/Anaconda/Library/bin/"
+      - "D:/Git/cmd/"
+      - "C:/Program Files/Docker/Docker/resources/bin/"
+      - "D:/Windows Kits/10/Windows Performance Toolkit/"
+      - "C:/Program Files/CMake/bin/"
+      - "C:/Users/\u0426\u0435\u0446\u043e/.pyenv/pyenv-win/bin/"
+      - "C:/Users/\u0426\u0435\u0446\u043e/.pyenv/pyenv-win/shims/"
+      - "D:/Python/Scripts/"
+      - "D:/Python/"
+      - "C:/Users/\u0426\u0435\u0446\u043e/AppData/Local/Microsoft/WindowsApps/"
+      - "C:/Users/\u0426\u0435\u0446\u043e/.dotnet/tools/"
+      - "C:/Users/\u0426\u0435\u0446\u043e/AppData/Local/Programs/Microsoft VS Code/bin/"
+      - "C:/Users/\u0426\u0435\u0446\u043e/AppData/Roaming/npm/"
+      - "D:/PyCharm Community Edition 2022.2.3/bin/"
+      - "C:/ProgramData/Microsoft/Windows/Start Menu/Programs/Git/"
+      - "D:/cursor/resources/app/bin/"
+    searched_directories:
+      - "C:/Program Files/Microsoft Visual Studio/2022/Community/VC/Tools/MSVC/14.43.34808/bin/Hostx64/x64/lld-link.com"
+      - "C:/Program Files/Microsoft Visual Studio/2022/Community/VC/Tools/MSVC/14.43.34808/bin/Hostx64/x64/lld-link.exe"
+      - "C:/Program Files/Microsoft Visual Studio/2022/Community/VC/Tools/MSVC/14.43.34808/bin/Hostx64/x64/lld-link"
+      - "D:/Anaconda/condabin/lld-link.com"
+      - "D:/Anaconda/condabin/lld-link.exe"
+      - "D:/Anaconda/condabin/lld-link"
+      - "C:/Windows/System32/lld-link.com"
+      - "C:/Windows/System32/lld-link.exe"
+      - "C:/Windows/System32/lld-link"
+      - "C:/Windows/lld-link.com"
+      - "C:/Windows/lld-link.exe"
+      - "C:/Windows/lld-link"
+      - "C:/Windows/System32/wbem/lld-link.com"
+      - "C:/Windows/System32/wbem/lld-link.exe"
+      - "C:/Windows/System32/wbem/lld-link"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/lld-link.com"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/lld-link.exe"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/lld-link"
+      - "C:/Windows/System32/OpenSSH/lld-link.com"
+      - "C:/Windows/System32/OpenSSH/lld-link.exe"
+      - "C:/Windows/System32/OpenSSH/lld-link"
+      - "C:/Program Files/dotnet/lld-link.com"
+      - "C:/Program Files/dotnet/lld-link.exe"
+      - "C:/Program Files/dotnet/lld-link"
+      - "C:/Program Files/nodejs/lld-link.com"
+      - "C:/Program Files/nodejs/lld-link.exe"
+      - "C:/Program Files/nodejs/lld-link"
+      - "C:/Program Files/Microsoft SQL Server/Client SDK/ODBC/170/Tools/Binn/lld-link.com"
+      - "C:/Program Files/Microsoft SQL Server/Client SDK/ODBC/170/Tools/Binn/lld-link.exe"
+      - "C:/Program Files/Microsoft SQL Server/Client SDK/ODBC/170/Tools/Binn/lld-link"
+      - "C:/Program Files (x86)/Microsoft SQL Server/150/Tools/Binn/lld-link.com"
+      - "C:/Program Files (x86)/Microsoft SQL Server/150/Tools/Binn/lld-link.exe"
+      - "C:/Program Files (x86)/Microsoft SQL Server/150/Tools/Binn/lld-link"
+      - "C:/Program Files/Microsoft SQL Server/150/Tools/Binn/lld-link.com"
+      - "C:/Program Files/Microsoft SQL Server/150/Tools/Binn/lld-link.exe"
+      - "C:/Program Files/Microsoft SQL Server/150/Tools/Binn/lld-link"
+      - "C:/Program Files/Microsoft SQL Server/150/DTS/Binn/lld-link.com"
+      - "C:/Program Files/Microsoft SQL Server/150/DTS/Binn/lld-link.exe"
+      - "C:/Program Files/Microsoft SQL Server/150/DTS/Binn/lld-link"
+      - "C:/Program Files (x86)/Windows Kits/8.1/Windows Performance Toolkit/lld-link.com"
+      - "C:/Program Files (x86)/Windows Kits/8.1/Windows Performance Toolkit/lld-link.exe"
+      - "C:/Program Files (x86)/Windows Kits/8.1/Windows Performance Toolkit/lld-link"
+      - "D:/Anaconda/lld-link.com"
+      - "D:/Anaconda/lld-link.exe"
+      - "D:/Anaconda/lld-link"
+      - "D:/Anaconda/Scripts/lld-link.com"
+      - "D:/Anaconda/Scripts/lld-link.exe"
+      - "D:/Anaconda/Scripts/lld-link"
+      - "D:/Anaconda/Library/bin/lld-link.com"
+      - "D:/Anaconda/Library/bin/lld-link.exe"
+      - "D:/Anaconda/Library/bin/lld-link"
+      - "D:/Git/cmd/lld-link.com"
+      - "D:/Git/cmd/lld-link.exe"
+      - "D:/Git/cmd/lld-link"
+      - "C:/Program Files/Docker/Docker/resources/bin/lld-link.com"
+      - "C:/Program Files/Docker/Docker/resources/bin/lld-link.exe"
+      - "C:/Program Files/Docker/Docker/resources/bin/lld-link"
+      - "D:/Windows Kits/10/Windows Performance Toolkit/lld-link.com"
+      - "D:/Windows Kits/10/Windows Performance Toolkit/lld-link.exe"
+      - "D:/Windows Kits/10/Windows Performance Toolkit/lld-link"
+      - "C:/Program Files/CMake/bin/lld-link.com"
+      - "C:/Program Files/CMake/bin/lld-link.exe"
+      - "C:/Program Files/CMake/bin/lld-link"
+      - "C:/Users/\u0426\u0435\u0446\u043e/.pyenv/pyenv-win/bin/lld-link.com"
+      - "C:/Users/\u0426\u0435\u0446\u043e/.pyenv/pyenv-win/bin/lld-link.exe"
+      - "C:/Users/\u0426\u0435\u0446\u043e/.pyenv/pyenv-win/bin/lld-link"
+      - "C:/Users/\u0426\u0435\u0446\u043e/.pyenv/pyenv-win/shims/lld-link.com"
+      - "C:/Users/\u0426\u0435\u0446\u043e/.pyenv/pyenv-win/shims/lld-link.exe"
+      - "C:/Users/\u0426\u0435\u0446\u043e/.pyenv/pyenv-win/shims/lld-link"
+      - "D:/Python/Scripts/lld-link.com"
+      - "D:/Python/Scripts/lld-link.exe"
+      - "D:/Python/Scripts/lld-link"
+      - "D:/Python/lld-link.com"
+      - "D:/Python/lld-link.exe"
+      - "D:/Python/lld-link"
+      - "C:/Users/\u0426\u0435\u0446\u043e/AppData/Local/Microsoft/WindowsApps/lld-link.com"
+      - "C:/Users/\u0426\u0435\u0446\u043e/AppData/Local/Microsoft/WindowsApps/lld-link.exe"
+      - "C:/Users/\u0426\u0435\u0446\u043e/AppData/Local/Microsoft/WindowsApps/lld-link"
+      - "C:/Users/\u0426\u0435\u0446\u043e/.dotnet/tools/lld-link.com"
+      - "C:/Users/\u0426\u0435\u0446\u043e/.dotnet/tools/lld-link.exe"
+      - "C:/Users/\u0426\u0435\u0446\u043e/.dotnet/tools/lld-link"
+      - "C:/Users/\u0426\u0435\u0446\u043e/AppData/Local/Programs/Microsoft VS Code/bin/lld-link.com"
+      - "C:/Users/\u0426\u0435\u0446\u043e/AppData/Local/Programs/Microsoft VS Code/bin/lld-link.exe"
+      - "C:/Users/\u0426\u0435\u0446\u043e/AppData/Local/Programs/Microsoft VS Code/bin/lld-link"
+      - "C:/Users/\u0426\u0435\u0446\u043e/AppData/Roaming/npm/lld-link.com"
+      - "C:/Users/\u0426\u0435\u0446\u043e/AppData/Roaming/npm/lld-link.exe"
+      - "C:/Users/\u0426\u0435\u0446\u043e/AppData/Roaming/npm/lld-link"
+      - "D:/PyCharm Community Edition 2022.2.3/bin/lld-link.com"
+      - "D:/PyCharm Community Edition 2022.2.3/bin/lld-link.exe"
+      - "D:/PyCharm Community Edition 2022.2.3/bin/lld-link"
+      - "C:/ProgramData/Microsoft/Windows/Start Menu/Programs/Git/lld-link.com"
+      - "C:/ProgramData/Microsoft/Windows/Start Menu/Programs/Git/lld-link.exe"
+      - "C:/ProgramData/Microsoft/Windows/Start Menu/Programs/Git/lld-link"
+      - "D:/cursor/resources/app/bin/lld-link.com"
+      - "D:/cursor/resources/app/bin/lld-link.exe"
+      - "D:/cursor/resources/app/bin/lld-link"
+    found: false
+    search_context:
+      ENV{PATH}:
+        - "D:\\Anaconda\\condabin"
+        - "C:\\Windows\\system32"
+        - "C:\\Windows"
+        - "C:\\Windows\\System32\\Wbem"
+        - "C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\"
+        - "C:\\Windows\\System32\\OpenSSH\\"
+        - "C:\\Program Files\\dotnet\\"
+        - "C:\\Program Files\\nodejs\\"
+        - "C:\\Program Files\\Microsoft SQL Server\\Client SDK\\ODBC\\170\\Tools\\Binn\\"
+        - "C:\\Program Files (x86)\\Microsoft SQL Server\\150\\Tools\\Binn\\"
+        - "C:\\Program Files\\Microsoft SQL Server\\150\\Tools\\Binn\\"
+        - "C:\\Program Files\\Microsoft SQL Server\\150\\DTS\\Binn\\"
+        - "C:\\Program Files (x86)\\Windows Kits\\8.1\\Windows Performance Toolkit\\"
+        - "D:\\Anaconda"
+        - "D:\\Anaconda\\Scripts"
+        - "D:\\Anaconda\\Library\\bin"
+        - "D:\\Git\\cmd"
+        - "C:\\Program Files\\Docker\\Docker\\resources\\bin"
+        - "D:\\Windows Kits\\10\\Windows Performance Toolkit\\"
+        - "C:\\Program Files\\CMake\\bin"
+        - "C:\\Users\\\u0426\u0435\u0446\u043e\\.pyenv\\pyenv-win\\bin"
+        - "C:\\Users\\\u0426\u0435\u0446\u043e\\.pyenv\\pyenv-win\\shims"
+        - "D:\\Python\\Scripts\\"
+        - "D:\\Python\\"
+        - "C:\\Users\\\u0426\u0435\u0446\u043e\\AppData\\Local\\Microsoft\\WindowsApps"
+        - "C:\\Users\\\u0426\u0435\u0446\u043e\\.dotnet\\tools"
+        - "C:\\Users\\\u0426\u0435\u0446\u043e\\AppData\\Local\\Programs\\Microsoft VS Code\\bin"
+        - "C:\\Users\\\u0426\u0435\u0446\u043e\\AppData\\Roaming\\npm"
+        - "D:\\PyCharm Community Edition 2022.2.3\\bin"
+        - "C:\\ProgramData\\Microsoft\\Windows\\Start Menu\\Programs\\Git"
+        - "C:\\Users\\\u0426\u0435\u0446\u043e\\.dotnet\\tools"
+        - "D:\\cursor\\resources\\app\\bin"
+  -
+    kind: "find-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-4.2/Modules/CMakeFindBinUtils.cmake:243 (find_program)"
+      - "C:/Program Files/CMake/share/cmake-4.2/Modules/CMakeDetermineCXXCompiler.cmake:206 (include)"
+      - "CMakeLists.txt:3 (project)"
+    mode: "program"
+    variable: "CMAKE_LINKER"
+    description: "Path to a program."
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: false
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: false
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "link"
+    candidate_directories:
+      - "C:/Program Files/Microsoft Visual Studio/2022/Community/VC/Tools/MSVC/14.43.34808/bin/Hostx64/x64/"
+      - "D:/Anaconda/condabin/"
+      - "C:/Windows/System32/"
+      - "C:/Windows/"
+      - "C:/Windows/System32/wbem/"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/"
+      - "C:/Windows/System32/OpenSSH/"
+      - "C:/Program Files/dotnet/"
+      - "C:/Program Files/nodejs/"
+      - "C:/Program Files/Microsoft SQL Server/Client SDK/ODBC/170/Tools/Binn/"
+      - "C:/Program Files (x86)/Microsoft SQL Server/150/Tools/Binn/"
+      - "C:/Program Files/Microsoft SQL Server/150/Tools/Binn/"
+      - "C:/Program Files/Microsoft SQL Server/150/DTS/Binn/"
+      - "C:/Program Files (x86)/Windows Kits/8.1/Windows Performance Toolkit/"
+      - "D:/Anaconda/"
+      - "D:/Anaconda/Scripts/"
+      - "D:/Anaconda/Library/bin/"
+      - "D:/Git/cmd/"
+      - "C:/Program Files/Docker/Docker/resources/bin/"
+      - "D:/Windows Kits/10/Windows Performance Toolkit/"
+      - "C:/Program Files/CMake/bin/"
+      - "C:/Users/\u0426\u0435\u0446\u043e/.pyenv/pyenv-win/bin/"
+      - "C:/Users/\u0426\u0435\u0446\u043e/.pyenv/pyenv-win/shims/"
+      - "D:/Python/Scripts/"
+      - "D:/Python/"
+      - "C:/Users/\u0426\u0435\u0446\u043e/AppData/Local/Microsoft/WindowsApps/"
+      - "C:/Users/\u0426\u0435\u0446\u043e/.dotnet/tools/"
+      - "C:/Users/\u0426\u0435\u0446\u043e/AppData/Local/Programs/Microsoft VS Code/bin/"
+      - "C:/Users/\u0426\u0435\u0446\u043e/AppData/Roaming/npm/"
+      - "D:/PyCharm Community Edition 2022.2.3/bin/"
+      - "C:/ProgramData/Microsoft/Windows/Start Menu/Programs/Git/"
+      - "D:/cursor/resources/app/bin/"
+    searched_directories:
+      - "C:/Program Files/Microsoft Visual Studio/2022/Community/VC/Tools/MSVC/14.43.34808/bin/Hostx64/x64/link.com"
+    found: "C:/Program Files/Microsoft Visual Studio/2022/Community/VC/Tools/MSVC/14.43.34808/bin/Hostx64/x64/link.exe"
+    search_context:
+      ENV{PATH}:
+        - "D:\\Anaconda\\condabin"
+        - "C:\\Windows\\system32"
+        - "C:\\Windows"
+        - "C:\\Windows\\System32\\Wbem"
+        - "C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\"
+        - "C:\\Windows\\System32\\OpenSSH\\"
+        - "C:\\Program Files\\dotnet\\"
+        - "C:\\Program Files\\nodejs\\"
+        - "C:\\Program Files\\Microsoft SQL Server\\Client SDK\\ODBC\\170\\Tools\\Binn\\"
+        - "C:\\Program Files (x86)\\Microsoft SQL Server\\150\\Tools\\Binn\\"
+        - "C:\\Program Files\\Microsoft SQL Server\\150\\Tools\\Binn\\"
+        - "C:\\Program Files\\Microsoft SQL Server\\150\\DTS\\Binn\\"
+        - "C:\\Program Files (x86)\\Windows Kits\\8.1\\Windows Performance Toolkit\\"
+        - "D:\\Anaconda"
+        - "D:\\Anaconda\\Scripts"
+        - "D:\\Anaconda\\Library\\bin"
+        - "D:\\Git\\cmd"
+        - "C:\\Program Files\\Docker\\Docker\\resources\\bin"
+        - "D:\\Windows Kits\\10\\Windows Performance Toolkit\\"
+        - "C:\\Program Files\\CMake\\bin"
+        - "C:\\Users\\\u0426\u0435\u0446\u043e\\.pyenv\\pyenv-win\\bin"
+        - "C:\\Users\\\u0426\u0435\u0446\u043e\\.pyenv\\pyenv-win\\shims"
+        - "D:\\Python\\Scripts\\"
+        - "D:\\Python\\"
+        - "C:\\Users\\\u0426\u0435\u0446\u043e\\AppData\\Local\\Microsoft\\WindowsApps"
+        - "C:\\Users\\\u0426\u0435\u0446\u043e\\.dotnet\\tools"
+        - "C:\\Users\\\u0426\u0435\u0446\u043e\\AppData\\Local\\Programs\\Microsoft VS Code\\bin"
+        - "C:\\Users\\\u0426\u0435\u0446\u043e\\AppData\\Roaming\\npm"
+        - "D:\\PyCharm Community Edition 2022.2.3\\bin"
+        - "C:\\ProgramData\\Microsoft\\Windows\\Start Menu\\Programs\\Git"
+        - "C:\\Users\\\u0426\u0435\u0446\u043e\\.dotnet\\tools"
+        - "D:\\cursor\\resources\\app\\bin"
+  -
+    kind: "find-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-4.2/Modules/CMakeFindBinUtils.cmake:243 (find_program)"
+      - "C:/Program Files/CMake/share/cmake-4.2/Modules/CMakeDetermineCXXCompiler.cmake:206 (include)"
+      - "CMakeLists.txt:3 (project)"
+    mode: "program"
+    variable: "CMAKE_MT"
+    description: "Path to a program."
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: false
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: false
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "mt"
+    candidate_directories:
+      - "C:/Program Files/Microsoft Visual Studio/2022/Community/VC/Tools/MSVC/14.43.34808/bin/Hostx64/x64/"
+      - "D:/Anaconda/condabin/"
+      - "C:/Windows/System32/"
+      - "C:/Windows/"
+      - "C:/Windows/System32/wbem/"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/"
+      - "C:/Windows/System32/OpenSSH/"
+      - "C:/Program Files/dotnet/"
+      - "C:/Program Files/nodejs/"
+      - "C:/Program Files/Microsoft SQL Server/Client SDK/ODBC/170/Tools/Binn/"
+      - "C:/Program Files (x86)/Microsoft SQL Server/150/Tools/Binn/"
+      - "C:/Program Files/Microsoft SQL Server/150/Tools/Binn/"
+      - "C:/Program Files/Microsoft SQL Server/150/DTS/Binn/"
+      - "C:/Program Files (x86)/Windows Kits/8.1/Windows Performance Toolkit/"
+      - "D:/Anaconda/"
+      - "D:/Anaconda/Scripts/"
+      - "D:/Anaconda/Library/bin/"
+      - "D:/Git/cmd/"
+      - "C:/Program Files/Docker/Docker/resources/bin/"
+      - "D:/Windows Kits/10/Windows Performance Toolkit/"
+      - "C:/Program Files/CMake/bin/"
+      - "C:/Users/\u0426\u0435\u0446\u043e/.pyenv/pyenv-win/bin/"
+      - "C:/Users/\u0426\u0435\u0446\u043e/.pyenv/pyenv-win/shims/"
+      - "D:/Python/Scripts/"
+      - "D:/Python/"
+      - "C:/Users/\u0426\u0435\u0446\u043e/AppData/Local/Microsoft/WindowsApps/"
+      - "C:/Users/\u0426\u0435\u0446\u043e/.dotnet/tools/"
+      - "C:/Users/\u0426\u0435\u0446\u043e/AppData/Local/Programs/Microsoft VS Code/bin/"
+      - "C:/Users/\u0426\u0435\u0446\u043e/AppData/Roaming/npm/"
+      - "D:/PyCharm Community Edition 2022.2.3/bin/"
+      - "C:/ProgramData/Microsoft/Windows/Start Menu/Programs/Git/"
+      - "D:/cursor/resources/app/bin/"
+    searched_directories:
+      - "C:/Program Files/Microsoft Visual Studio/2022/Community/VC/Tools/MSVC/14.43.34808/bin/Hostx64/x64/mt.com"
+      - "C:/Program Files/Microsoft Visual Studio/2022/Community/VC/Tools/MSVC/14.43.34808/bin/Hostx64/x64/mt.exe"
+      - "C:/Program Files/Microsoft Visual Studio/2022/Community/VC/Tools/MSVC/14.43.34808/bin/Hostx64/x64/mt"
+      - "D:/Anaconda/condabin/mt.com"
+      - "D:/Anaconda/condabin/mt.exe"
+      - "D:/Anaconda/condabin/mt"
+      - "C:/Windows/System32/mt.com"
+      - "C:/Windows/System32/mt.exe"
+      - "C:/Windows/System32/mt"
+      - "C:/Windows/mt.com"
+      - "C:/Windows/mt.exe"
+      - "C:/Windows/mt"
+      - "C:/Windows/System32/wbem/mt.com"
+      - "C:/Windows/System32/wbem/mt.exe"
+      - "C:/Windows/System32/wbem/mt"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/mt.com"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/mt.exe"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/mt"
+      - "C:/Windows/System32/OpenSSH/mt.com"
+      - "C:/Windows/System32/OpenSSH/mt.exe"
+      - "C:/Windows/System32/OpenSSH/mt"
+      - "C:/Program Files/dotnet/mt.com"
+      - "C:/Program Files/dotnet/mt.exe"
+      - "C:/Program Files/dotnet/mt"
+      - "C:/Program Files/nodejs/mt.com"
+      - "C:/Program Files/nodejs/mt.exe"
+      - "C:/Program Files/nodejs/mt"
+      - "C:/Program Files/Microsoft SQL Server/Client SDK/ODBC/170/Tools/Binn/mt.com"
+      - "C:/Program Files/Microsoft SQL Server/Client SDK/ODBC/170/Tools/Binn/mt.exe"
+      - "C:/Program Files/Microsoft SQL Server/Client SDK/ODBC/170/Tools/Binn/mt"
+      - "C:/Program Files (x86)/Microsoft SQL Server/150/Tools/Binn/mt.com"
+      - "C:/Program Files (x86)/Microsoft SQL Server/150/Tools/Binn/mt.exe"
+      - "C:/Program Files (x86)/Microsoft SQL Server/150/Tools/Binn/mt"
+      - "C:/Program Files/Microsoft SQL Server/150/Tools/Binn/mt.com"
+      - "C:/Program Files/Microsoft SQL Server/150/Tools/Binn/mt.exe"
+      - "C:/Program Files/Microsoft SQL Server/150/Tools/Binn/mt"
+      - "C:/Program Files/Microsoft SQL Server/150/DTS/Binn/mt.com"
+      - "C:/Program Files/Microsoft SQL Server/150/DTS/Binn/mt.exe"
+      - "C:/Program Files/Microsoft SQL Server/150/DTS/Binn/mt"
+      - "C:/Program Files (x86)/Windows Kits/8.1/Windows Performance Toolkit/mt.com"
+      - "C:/Program Files (x86)/Windows Kits/8.1/Windows Performance Toolkit/mt.exe"
+      - "C:/Program Files (x86)/Windows Kits/8.1/Windows Performance Toolkit/mt"
+      - "D:/Anaconda/mt.com"
+      - "D:/Anaconda/mt.exe"
+      - "D:/Anaconda/mt"
+      - "D:/Anaconda/Scripts/mt.com"
+      - "D:/Anaconda/Scripts/mt.exe"
+      - "D:/Anaconda/Scripts/mt"
+      - "D:/Anaconda/Library/bin/mt.com"
+      - "D:/Anaconda/Library/bin/mt.exe"
+      - "D:/Anaconda/Library/bin/mt"
+      - "D:/Git/cmd/mt.com"
+      - "D:/Git/cmd/mt.exe"
+      - "D:/Git/cmd/mt"
+      - "C:/Program Files/Docker/Docker/resources/bin/mt.com"
+      - "C:/Program Files/Docker/Docker/resources/bin/mt.exe"
+      - "C:/Program Files/Docker/Docker/resources/bin/mt"
+      - "D:/Windows Kits/10/Windows Performance Toolkit/mt.com"
+      - "D:/Windows Kits/10/Windows Performance Toolkit/mt.exe"
+      - "D:/Windows Kits/10/Windows Performance Toolkit/mt"
+      - "C:/Program Files/CMake/bin/mt.com"
+      - "C:/Program Files/CMake/bin/mt.exe"
+      - "C:/Program Files/CMake/bin/mt"
+      - "C:/Users/\u0426\u0435\u0446\u043e/.pyenv/pyenv-win/bin/mt.com"
+      - "C:/Users/\u0426\u0435\u0446\u043e/.pyenv/pyenv-win/bin/mt.exe"
+      - "C:/Users/\u0426\u0435\u0446\u043e/.pyenv/pyenv-win/bin/mt"
+      - "C:/Users/\u0426\u0435\u0446\u043e/.pyenv/pyenv-win/shims/mt.com"
+      - "C:/Users/\u0426\u0435\u0446\u043e/.pyenv/pyenv-win/shims/mt.exe"
+      - "C:/Users/\u0426\u0435\u0446\u043e/.pyenv/pyenv-win/shims/mt"
+      - "D:/Python/Scripts/mt.com"
+      - "D:/Python/Scripts/mt.exe"
+      - "D:/Python/Scripts/mt"
+      - "D:/Python/mt.com"
+      - "D:/Python/mt.exe"
+      - "D:/Python/mt"
+      - "C:/Users/\u0426\u0435\u0446\u043e/AppData/Local/Microsoft/WindowsApps/mt.com"
+      - "C:/Users/\u0426\u0435\u0446\u043e/AppData/Local/Microsoft/WindowsApps/mt.exe"
+      - "C:/Users/\u0426\u0435\u0446\u043e/AppData/Local/Microsoft/WindowsApps/mt"
+      - "C:/Users/\u0426\u0435\u0446\u043e/.dotnet/tools/mt.com"
+      - "C:/Users/\u0426\u0435\u0446\u043e/.dotnet/tools/mt.exe"
+      - "C:/Users/\u0426\u0435\u0446\u043e/.dotnet/tools/mt"
+      - "C:/Users/\u0426\u0435\u0446\u043e/AppData/Local/Programs/Microsoft VS Code/bin/mt.com"
+      - "C:/Users/\u0426\u0435\u0446\u043e/AppData/Local/Programs/Microsoft VS Code/bin/mt.exe"
+      - "C:/Users/\u0426\u0435\u0446\u043e/AppData/Local/Programs/Microsoft VS Code/bin/mt"
+      - "C:/Users/\u0426\u0435\u0446\u043e/AppData/Roaming/npm/mt.com"
+      - "C:/Users/\u0426\u0435\u0446\u043e/AppData/Roaming/npm/mt.exe"
+      - "C:/Users/\u0426\u0435\u0446\u043e/AppData/Roaming/npm/mt"
+      - "D:/PyCharm Community Edition 2022.2.3/bin/mt.com"
+      - "D:/PyCharm Community Edition 2022.2.3/bin/mt.exe"
+      - "D:/PyCharm Community Edition 2022.2.3/bin/mt"
+      - "C:/ProgramData/Microsoft/Windows/Start Menu/Programs/Git/mt.com"
+      - "C:/ProgramData/Microsoft/Windows/Start Menu/Programs/Git/mt.exe"
+      - "C:/ProgramData/Microsoft/Windows/Start Menu/Programs/Git/mt"
+      - "D:/cursor/resources/app/bin/mt.com"
+      - "D:/cursor/resources/app/bin/mt.exe"
+      - "D:/cursor/resources/app/bin/mt"
+    found: false
+    search_context:
+      ENV{PATH}:
+        - "D:\\Anaconda\\condabin"
+        - "C:\\Windows\\system32"
+        - "C:\\Windows"
+        - "C:\\Windows\\System32\\Wbem"
+        - "C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\"
+        - "C:\\Windows\\System32\\OpenSSH\\"
+        - "C:\\Program Files\\dotnet\\"
+        - "C:\\Program Files\\nodejs\\"
+        - "C:\\Program Files\\Microsoft SQL Server\\Client SDK\\ODBC\\170\\Tools\\Binn\\"
+        - "C:\\Program Files (x86)\\Microsoft SQL Server\\150\\Tools\\Binn\\"
+        - "C:\\Program Files\\Microsoft SQL Server\\150\\Tools\\Binn\\"
+        - "C:\\Program Files\\Microsoft SQL Server\\150\\DTS\\Binn\\"
+        - "C:\\Program Files (x86)\\Windows Kits\\8.1\\Windows Performance Toolkit\\"
+        - "D:\\Anaconda"
+        - "D:\\Anaconda\\Scripts"
+        - "D:\\Anaconda\\Library\\bin"
+        - "D:\\Git\\cmd"
+        - "C:\\Program Files\\Docker\\Docker\\resources\\bin"
+        - "D:\\Windows Kits\\10\\Windows Performance Toolkit\\"
+        - "C:\\Program Files\\CMake\\bin"
+        - "C:\\Users\\\u0426\u0435\u0446\u043e\\.pyenv\\pyenv-win\\bin"
+        - "C:\\Users\\\u0426\u0435\u0446\u043e\\.pyenv\\pyenv-win\\shims"
+        - "D:\\Python\\Scripts\\"
+        - "D:\\Python\\"
+        - "C:\\Users\\\u0426\u0435\u0446\u043e\\AppData\\Local\\Microsoft\\WindowsApps"
+        - "C:\\Users\\\u0426\u0435\u0446\u043e\\.dotnet\\tools"
+        - "C:\\Users\\\u0426\u0435\u0446\u043e\\AppData\\Local\\Programs\\Microsoft VS Code\\bin"
+        - "C:\\Users\\\u0426\u0435\u0446\u043e\\AppData\\Roaming\\npm"
+        - "D:\\PyCharm Community Edition 2022.2.3\\bin"
+        - "C:\\ProgramData\\Microsoft\\Windows\\Start Menu\\Programs\\Git"
+        - "C:\\Users\\\u0426\u0435\u0446\u043e\\.dotnet\\tools"
+        - "D:\\cursor\\resources\\app\\bin"
+  -
+    kind: "find-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-4.2/Modules/CMakeFindBinUtils.cmake:243 (find_program)"
+      - "C:/Program Files/CMake/share/cmake-4.2/Modules/CMakeDetermineCXXCompiler.cmake:206 (include)"
+      - "CMakeLists.txt:3 (project)"
+    mode: "program"
+    variable: "CMAKE_AR"
+    description: "Path to a program."
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: false
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: false
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "lib"
+    candidate_directories:
+      - "C:/Program Files/Microsoft Visual Studio/2022/Community/VC/Tools/MSVC/14.43.34808/bin/Hostx64/x64/"
+      - "D:/Anaconda/condabin/"
+      - "C:/Windows/System32/"
+      - "C:/Windows/"
+      - "C:/Windows/System32/wbem/"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/"
+      - "C:/Windows/System32/OpenSSH/"
+      - "C:/Program Files/dotnet/"
+      - "C:/Program Files/nodejs/"
+      - "C:/Program Files/Microsoft SQL Server/Client SDK/ODBC/170/Tools/Binn/"
+      - "C:/Program Files (x86)/Microsoft SQL Server/150/Tools/Binn/"
+      - "C:/Program Files/Microsoft SQL Server/150/Tools/Binn/"
+      - "C:/Program Files/Microsoft SQL Server/150/DTS/Binn/"
+      - "C:/Program Files (x86)/Windows Kits/8.1/Windows Performance Toolkit/"
+      - "D:/Anaconda/"
+      - "D:/Anaconda/Scripts/"
+      - "D:/Anaconda/Library/bin/"
+      - "D:/Git/cmd/"
+      - "C:/Program Files/Docker/Docker/resources/bin/"
+      - "D:/Windows Kits/10/Windows Performance Toolkit/"
+      - "C:/Program Files/CMake/bin/"
+      - "C:/Users/\u0426\u0435\u0446\u043e/.pyenv/pyenv-win/bin/"
+      - "C:/Users/\u0426\u0435\u0446\u043e/.pyenv/pyenv-win/shims/"
+      - "D:/Python/Scripts/"
+      - "D:/Python/"
+      - "C:/Users/\u0426\u0435\u0446\u043e/AppData/Local/Microsoft/WindowsApps/"
+      - "C:/Users/\u0426\u0435\u0446\u043e/.dotnet/tools/"
+      - "C:/Users/\u0426\u0435\u0446\u043e/AppData/Local/Programs/Microsoft VS Code/bin/"
+      - "C:/Users/\u0426\u0435\u0446\u043e/AppData/Roaming/npm/"
+      - "D:/PyCharm Community Edition 2022.2.3/bin/"
+      - "C:/ProgramData/Microsoft/Windows/Start Menu/Programs/Git/"
+      - "D:/cursor/resources/app/bin/"
+    searched_directories:
+      - "C:/Program Files/Microsoft Visual Studio/2022/Community/VC/Tools/MSVC/14.43.34808/bin/Hostx64/x64/lib.com"
+    found: "C:/Program Files/Microsoft Visual Studio/2022/Community/VC/Tools/MSVC/14.43.34808/bin/Hostx64/x64/lib.exe"
+    search_context:
+      ENV{PATH}:
+        - "D:\\Anaconda\\condabin"
+        - "C:\\Windows\\system32"
+        - "C:\\Windows"
+        - "C:\\Windows\\System32\\Wbem"
+        - "C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\"
+        - "C:\\Windows\\System32\\OpenSSH\\"
+        - "C:\\Program Files\\dotnet\\"
+        - "C:\\Program Files\\nodejs\\"
+        - "C:\\Program Files\\Microsoft SQL Server\\Client SDK\\ODBC\\170\\Tools\\Binn\\"
+        - "C:\\Program Files (x86)\\Microsoft SQL Server\\150\\Tools\\Binn\\"
+        - "C:\\Program Files\\Microsoft SQL Server\\150\\Tools\\Binn\\"
+        - "C:\\Program Files\\Microsoft SQL Server\\150\\DTS\\Binn\\"
+        - "C:\\Program Files (x86)\\Windows Kits\\8.1\\Windows Performance Toolkit\\"
+        - "D:\\Anaconda"
+        - "D:\\Anaconda\\Scripts"
+        - "D:\\Anaconda\\Library\\bin"
+        - "D:\\Git\\cmd"
+        - "C:\\Program Files\\Docker\\Docker\\resources\\bin"
+        - "D:\\Windows Kits\\10\\Windows Performance Toolkit\\"
+        - "C:\\Program Files\\CMake\\bin"
+        - "C:\\Users\\\u0426\u0435\u0446\u043e\\.pyenv\\pyenv-win\\bin"
+        - "C:\\Users\\\u0426\u0435\u0446\u043e\\.pyenv\\pyenv-win\\shims"
+        - "D:\\Python\\Scripts\\"
+        - "D:\\Python\\"
+        - "C:\\Users\\\u0426\u0435\u0446\u043e\\AppData\\Local\\Microsoft\\WindowsApps"
+        - "C:\\Users\\\u0426\u0435\u0446\u043e\\.dotnet\\tools"
+        - "C:\\Users\\\u0426\u0435\u0446\u043e\\AppData\\Local\\Programs\\Microsoft VS Code\\bin"
+        - "C:\\Users\\\u0426\u0435\u0446\u043e\\AppData\\Roaming\\npm"
+        - "D:\\PyCharm Community Edition 2022.2.3\\bin"
+        - "C:\\ProgramData\\Microsoft\\Windows\\Start Menu\\Programs\\Git"
+        - "C:\\Users\\\u0426\u0435\u0446\u043e\\.dotnet\\tools"
+        - "D:\\cursor\\resources\\app\\bin"
+  -
+    kind: "find-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-4.2/Modules/CMakeDetermineRCCompiler.cmake:40 (find_program)"
+      - "C:/Program Files/CMake/share/cmake-4.2/Modules/Platform/Windows-MSVC.cmake:580 (enable_language)"
+      - "C:/Program Files/CMake/share/cmake-4.2/Modules/Platform/Windows-MSVC.cmake:553 (__windows_compiler_msvc_enable_rc)"
+      - "C:/Program Files/CMake/share/cmake-4.2/Modules/Platform/Windows-MSVC-CXX.cmake:6 (__windows_compiler_msvc)"
+      - "C:/Program Files/CMake/share/cmake-4.2/Modules/CMakeCXXInformation.cmake:48 (include)"
+      - "CMakeLists.txt:3 (project)"
+    mode: "program"
+    variable: "CMAKE_RC_COMPILER"
+    description: "RC compiler"
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: true
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "rc"
+    candidate_directories:
+      - "D:/Anaconda/condabin/"
+      - "C:/Windows/System32/"
+      - "C:/Windows/"
+      - "C:/Windows/System32/wbem/"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/"
+      - "C:/Windows/System32/OpenSSH/"
+      - "C:/Program Files/dotnet/"
+      - "C:/Program Files/nodejs/"
+      - "C:/Program Files/Microsoft SQL Server/Client SDK/ODBC/170/Tools/Binn/"
+      - "C:/Program Files (x86)/Microsoft SQL Server/150/Tools/Binn/"
+      - "C:/Program Files/Microsoft SQL Server/150/Tools/Binn/"
+      - "C:/Program Files/Microsoft SQL Server/150/DTS/Binn/"
+      - "C:/Program Files (x86)/Windows Kits/8.1/Windows Performance Toolkit/"
+      - "D:/Anaconda/"
+      - "D:/Anaconda/Scripts/"
+      - "D:/Anaconda/Library/bin/"
+      - "D:/Git/cmd/"
+      - "C:/Program Files/Docker/Docker/resources/bin/"
+      - "D:/Windows Kits/10/Windows Performance Toolkit/"
+      - "C:/Program Files/CMake/bin/"
+      - "C:/Users/\u0426\u0435\u0446\u043e/.pyenv/pyenv-win/bin/"
+      - "C:/Users/\u0426\u0435\u0446\u043e/.pyenv/pyenv-win/shims/"
+      - "D:/Python/Scripts/"
+      - "D:/Python/"
+      - "C:/Users/\u0426\u0435\u0446\u043e/AppData/Local/Microsoft/WindowsApps/"
+      - "C:/Users/\u0426\u0435\u0446\u043e/.dotnet/tools/"
+      - "C:/Users/\u0426\u0435\u0446\u043e/AppData/Local/Programs/Microsoft VS Code/bin/"
+      - "C:/Users/\u0426\u0435\u0446\u043e/AppData/Roaming/npm/"
+      - "D:/PyCharm Community Edition 2022.2.3/bin/"
+      - "C:/ProgramData/Microsoft/Windows/Start Menu/Programs/Git/"
+      - "D:/cursor/resources/app/bin/"
+      - "C:/Program Files/bin/"
+      - "C:/Program Files/sbin/"
+      - "C:/Program Files/"
+      - "C:/Program Files (x86)/bin/"
+      - "C:/Program Files (x86)/sbin/"
+      - "C:/Program Files (x86)/"
+      - "C:/Program Files/CMake/bin/"
+      - "C:/Program Files/CMake/sbin/"
+      - "C:/Program Files/CMake/"
+      - "C:/Program Files (x86)/ClockSimulation/bin/"
+      - "C:/Program Files (x86)/ClockSimulation/sbin/"
+      - "C:/Program Files (x86)/ClockSimulation/"
+    searched_directories:
+      - "D:/Anaconda/condabin/rc.com"
+      - "D:/Anaconda/condabin/rc.exe"
+      - "D:/Anaconda/condabin/rc"
+      - "C:/Windows/System32/rc.com"
+      - "C:/Windows/System32/rc.exe"
+      - "C:/Windows/System32/rc"
+      - "C:/Windows/rc.com"
+      - "C:/Windows/rc.exe"
+      - "C:/Windows/rc"
+      - "C:/Windows/System32/wbem/rc.com"
+      - "C:/Windows/System32/wbem/rc.exe"
+      - "C:/Windows/System32/wbem/rc"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/rc.com"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/rc.exe"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/rc"
+      - "C:/Windows/System32/OpenSSH/rc.com"
+      - "C:/Windows/System32/OpenSSH/rc.exe"
+      - "C:/Windows/System32/OpenSSH/rc"
+      - "C:/Program Files/dotnet/rc.com"
+      - "C:/Program Files/dotnet/rc.exe"
+      - "C:/Program Files/dotnet/rc"
+      - "C:/Program Files/nodejs/rc.com"
+      - "C:/Program Files/nodejs/rc.exe"
+      - "C:/Program Files/nodejs/rc"
+      - "C:/Program Files/Microsoft SQL Server/Client SDK/ODBC/170/Tools/Binn/rc.com"
+      - "C:/Program Files/Microsoft SQL Server/Client SDK/ODBC/170/Tools/Binn/rc.exe"
+      - "C:/Program Files/Microsoft SQL Server/Client SDK/ODBC/170/Tools/Binn/rc"
+      - "C:/Program Files (x86)/Microsoft SQL Server/150/Tools/Binn/rc.com"
+      - "C:/Program Files (x86)/Microsoft SQL Server/150/Tools/Binn/rc.exe"
+      - "C:/Program Files (x86)/Microsoft SQL Server/150/Tools/Binn/rc"
+      - "C:/Program Files/Microsoft SQL Server/150/Tools/Binn/rc.com"
+      - "C:/Program Files/Microsoft SQL Server/150/Tools/Binn/rc.exe"
+      - "C:/Program Files/Microsoft SQL Server/150/Tools/Binn/rc"
+      - "C:/Program Files/Microsoft SQL Server/150/DTS/Binn/rc.com"
+      - "C:/Program Files/Microsoft SQL Server/150/DTS/Binn/rc.exe"
+      - "C:/Program Files/Microsoft SQL Server/150/DTS/Binn/rc"
+      - "C:/Program Files (x86)/Windows Kits/8.1/Windows Performance Toolkit/rc.com"
+      - "C:/Program Files (x86)/Windows Kits/8.1/Windows Performance Toolkit/rc.exe"
+      - "C:/Program Files (x86)/Windows Kits/8.1/Windows Performance Toolkit/rc"
+      - "D:/Anaconda/rc.com"
+      - "D:/Anaconda/rc.exe"
+      - "D:/Anaconda/rc"
+      - "D:/Anaconda/Scripts/rc.com"
+      - "D:/Anaconda/Scripts/rc.exe"
+      - "D:/Anaconda/Scripts/rc"
+      - "D:/Anaconda/Library/bin/rc.com"
+      - "D:/Anaconda/Library/bin/rc.exe"
+      - "D:/Anaconda/Library/bin/rc"
+      - "D:/Git/cmd/rc.com"
+      - "D:/Git/cmd/rc.exe"
+      - "D:/Git/cmd/rc"
+      - "C:/Program Files/Docker/Docker/resources/bin/rc.com"
+      - "C:/Program Files/Docker/Docker/resources/bin/rc.exe"
+      - "C:/Program Files/Docker/Docker/resources/bin/rc"
+      - "D:/Windows Kits/10/Windows Performance Toolkit/rc.com"
+      - "D:/Windows Kits/10/Windows Performance Toolkit/rc.exe"
+      - "D:/Windows Kits/10/Windows Performance Toolkit/rc"
+      - "C:/Program Files/CMake/bin/rc.com"
+      - "C:/Program Files/CMake/bin/rc.exe"
+      - "C:/Program Files/CMake/bin/rc"
+      - "C:/Users/\u0426\u0435\u0446\u043e/.pyenv/pyenv-win/bin/rc.com"
+      - "C:/Users/\u0426\u0435\u0446\u043e/.pyenv/pyenv-win/bin/rc.exe"
+      - "C:/Users/\u0426\u0435\u0446\u043e/.pyenv/pyenv-win/bin/rc"
+      - "C:/Users/\u0426\u0435\u0446\u043e/.pyenv/pyenv-win/shims/rc.com"
+      - "C:/Users/\u0426\u0435\u0446\u043e/.pyenv/pyenv-win/shims/rc.exe"
+      - "C:/Users/\u0426\u0435\u0446\u043e/.pyenv/pyenv-win/shims/rc"
+      - "D:/Python/Scripts/rc.com"
+      - "D:/Python/Scripts/rc.exe"
+      - "D:/Python/Scripts/rc"
+      - "D:/Python/rc.com"
+      - "D:/Python/rc.exe"
+      - "D:/Python/rc"
+      - "C:/Users/\u0426\u0435\u0446\u043e/AppData/Local/Microsoft/WindowsApps/rc.com"
+      - "C:/Users/\u0426\u0435\u0446\u043e/AppData/Local/Microsoft/WindowsApps/rc.exe"
+      - "C:/Users/\u0426\u0435\u0446\u043e/AppData/Local/Microsoft/WindowsApps/rc"
+      - "C:/Users/\u0426\u0435\u0446\u043e/.dotnet/tools/rc.com"
+      - "C:/Users/\u0426\u0435\u0446\u043e/.dotnet/tools/rc.exe"
+      - "C:/Users/\u0426\u0435\u0446\u043e/.dotnet/tools/rc"
+      - "C:/Users/\u0426\u0435\u0446\u043e/AppData/Local/Programs/Microsoft VS Code/bin/rc.com"
+      - "C:/Users/\u0426\u0435\u0446\u043e/AppData/Local/Programs/Microsoft VS Code/bin/rc.exe"
+      - "C:/Users/\u0426\u0435\u0446\u043e/AppData/Local/Programs/Microsoft VS Code/bin/rc"
+      - "C:/Users/\u0426\u0435\u0446\u043e/AppData/Roaming/npm/rc.com"
+      - "C:/Users/\u0426\u0435\u0446\u043e/AppData/Roaming/npm/rc.exe"
+      - "C:/Users/\u0426\u0435\u0446\u043e/AppData/Roaming/npm/rc"
+      - "D:/PyCharm Community Edition 2022.2.3/bin/rc.com"
+      - "D:/PyCharm Community Edition 2022.2.3/bin/rc.exe"
+      - "D:/PyCharm Community Edition 2022.2.3/bin/rc"
+      - "C:/ProgramData/Microsoft/Windows/Start Menu/Programs/Git/rc.com"
+      - "C:/ProgramData/Microsoft/Windows/Start Menu/Programs/Git/rc.exe"
+      - "C:/ProgramData/Microsoft/Windows/Start Menu/Programs/Git/rc"
+      - "D:/cursor/resources/app/bin/rc.com"
+      - "D:/cursor/resources/app/bin/rc.exe"
+      - "D:/cursor/resources/app/bin/rc"
+      - "C:/Program Files/bin/rc.com"
+      - "C:/Program Files/bin/rc.exe"
+      - "C:/Program Files/bin/rc"
+      - "C:/Program Files/sbin/rc.com"
+      - "C:/Program Files/sbin/rc.exe"
+      - "C:/Program Files/sbin/rc"
+      - "C:/Program Files/rc.com"
+      - "C:/Program Files/rc.exe"
+      - "C:/Program Files/rc"
+      - "C:/Program Files (x86)/bin/rc.com"
+      - "C:/Program Files (x86)/bin/rc.exe"
+      - "C:/Program Files (x86)/bin/rc"
+      - "C:/Program Files (x86)/sbin/rc.com"
+      - "C:/Program Files (x86)/sbin/rc.exe"
+      - "C:/Program Files (x86)/sbin/rc"
+      - "C:/Program Files (x86)/rc.com"
+      - "C:/Program Files (x86)/rc.exe"
+      - "C:/Program Files (x86)/rc"
+      - "C:/Program Files/CMake/bin/rc.com"
+      - "C:/Program Files/CMake/bin/rc.exe"
+      - "C:/Program Files/CMake/bin/rc"
+      - "C:/Program Files/CMake/sbin/rc.com"
+      - "C:/Program Files/CMake/sbin/rc.exe"
+      - "C:/Program Files/CMake/sbin/rc"
+      - "C:/Program Files/CMake/rc.com"
+      - "C:/Program Files/CMake/rc.exe"
+      - "C:/Program Files/CMake/rc"
+      - "C:/Program Files (x86)/ClockSimulation/bin/rc.com"
+      - "C:/Program Files (x86)/ClockSimulation/bin/rc.exe"
+      - "C:/Program Files (x86)/ClockSimulation/bin/rc"
+      - "C:/Program Files (x86)/ClockSimulation/sbin/rc.com"
+      - "C:/Program Files (x86)/ClockSimulation/sbin/rc.exe"
+      - "C:/Program Files (x86)/ClockSimulation/sbin/rc"
+      - "C:/Program Files (x86)/ClockSimulation/rc.com"
+      - "C:/Program Files (x86)/ClockSimulation/rc.exe"
+      - "C:/Program Files (x86)/ClockSimulation/rc"
+    found: false
+    search_context:
+      ENV{PATH}:
+        - "D:\\Anaconda\\condabin"
+        - "C:\\Windows\\system32"
+        - "C:\\Windows"
+        - "C:\\Windows\\System32\\Wbem"
+        - "C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\"
+        - "C:\\Windows\\System32\\OpenSSH\\"
+        - "C:\\Program Files\\dotnet\\"
+        - "C:\\Program Files\\nodejs\\"
+        - "C:\\Program Files\\Microsoft SQL Server\\Client SDK\\ODBC\\170\\Tools\\Binn\\"
+        - "C:\\Program Files (x86)\\Microsoft SQL Server\\150\\Tools\\Binn\\"
+        - "C:\\Program Files\\Microsoft SQL Server\\150\\Tools\\Binn\\"
+        - "C:\\Program Files\\Microsoft SQL Server\\150\\DTS\\Binn\\"
+        - "C:\\Program Files (x86)\\Windows Kits\\8.1\\Windows Performance Toolkit\\"
+        - "D:\\Anaconda"
+        - "D:\\Anaconda\\Scripts"
+        - "D:\\Anaconda\\Library\\bin"
+        - "D:\\Git\\cmd"
+        - "C:\\Program Files\\Docker\\Docker\\resources\\bin"
+        - "D:\\Windows Kits\\10\\Windows Performance Toolkit\\"
+        - "C:\\Program Files\\CMake\\bin"
+        - "C:\\Users\\\u0426\u0435\u0446\u043e\\.pyenv\\pyenv-win\\bin"
+        - "C:\\Users\\\u0426\u0435\u0446\u043e\\.pyenv\\pyenv-win\\shims"
+        - "D:\\Python\\Scripts\\"
+        - "D:\\Python\\"
+        - "C:\\Users\\\u0426\u0435\u0446\u043e\\AppData\\Local\\Microsoft\\WindowsApps"
+        - "C:\\Users\\\u0426\u0435\u0446\u043e\\.dotnet\\tools"
+        - "C:\\Users\\\u0426\u0435\u0446\u043e\\AppData\\Local\\Programs\\Microsoft VS Code\\bin"
+        - "C:\\Users\\\u0426\u0435\u0446\u043e\\AppData\\Roaming\\npm"
+        - "D:\\PyCharm Community Edition 2022.2.3\\bin"
+        - "C:\\ProgramData\\Microsoft\\Windows\\Start Menu\\Programs\\Git"
+        - "C:\\Users\\\u0426\u0435\u0446\u043e\\.dotnet\\tools"
+        - "D:\\cursor\\resources\\app\\bin"
+      CMAKE_INSTALL_PREFIX: "C:/Program Files (x86)/ClockSimulation"
+      CMAKE_SYSTEM_PREFIX_PATH:
+        - "C:/Program Files"
+        - "C:/Program Files (x86)"
+        - "C:/Program Files/CMake"
+        - "C:/Program Files (x86)/ClockSimulation"
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-4.2/Modules/CMakeDetermineCompilerABI.cmake:83 (try_compile)"
+      - "C:/Program Files/CMake/share/cmake-4.2/Modules/CMakeTestCXXCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt:3 (project)"
+    checks:
+      - "Detecting CXX compiler ABI info"
+    directories:
+      source: "C:/Users/\u0426\u0435\u0446\u043e/Desktop/clock/build/CMakeFiles/CMakeScratch/TryCompile-wtljve"
+      binary: "C:/Users/\u0426\u0435\u0446\u043e/Desktop/clock/build/CMakeFiles/CMakeScratch/TryCompile-wtljve"
+    cmakeVariables:
+      CMAKE_CXX_FLAGS: "/DWIN32 /D_WINDOWS /EHsc"
+      CMAKE_CXX_FLAGS_DEBUG: "/Zi /Ob0 /Od /RTC1"
+      CMAKE_CXX_SCAN_FOR_MODULES: "OFF"
+      CMAKE_EXE_LINKER_FLAGS: "/machine:x64"
+    buildResult:
+      variable: "CMAKE_CXX_ABI_COMPILED"
+      cached: true
+      stdout: |
+        Change Dir: 'C:/Users/Цецо/Desktop/clock/build/CMakeFiles/CMakeScratch/TryCompile-wtljve'
+        
+        Run Build Command(s): "C:/Program Files/Microsoft Visual Studio/2022/Community/MSBuild/Current/Bin/amd64/MSBuild.exe" cmTC_06bce.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=17.0 /v:n
+        MSBuild version 17.13.19+0d9f5a35a for .NET Framework
+        Build started 30.11.2025 ╨│. 12:35:23.
+        
+        Project "C:\\Users\\╨ж╨╡╤Ж╨╛\\Desktop\\clock\\build\\CMakeFiles\\CMakeScratch\\TryCompile-wtljve\\cmTC_06bce.vcxproj" on node 1 (default targets).
+        PrepareForBuild:
+          Structured output is enabled. The formatting of compiler diagnostics will reflect the error hierarchy. See https://aka.ms/cpp/structured-output for more details.
+          Creating directory "C:\\Users\\╨ж╨╡╤Ж╨╛\\Desktop\\clock\\build\\CMakeFiles\\CMakeScratch\\TryCompile-wtljve\\Debug\\".
+          Creating directory "cmTC_06bce.dir\\Debug\\cmTC_06bce.tlog\\".
+        InitializeBuildStatus:
+          Creating "cmTC_06bce.dir\\Debug\\cmTC_06bce.tlog\\unsuccessfulbuild" because "AlwaysCreate" was specified.
+          Touching "cmTC_06bce.dir\\Debug\\cmTC_06bce.tlog\\unsuccessfulbuild".
+        ClCompile:
+          C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.43.34808\\bin\\HostX64\\x64\\CL.exe /c /Zi /W1 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D _MBCS /D "CMAKE_INTDIR=\\"Debug\\"" /EHsc /RTC1 /MDd /Fo"cmTC_06bce.dir\\Debug\\\\" /Fd"cmTC_06bce.dir\\Debug\\vc143.pdb" /external:W1 /TP /errorReport:queue "C:\\Program Files\\CMake\\share\\cmake-4.2\\Modules\\CMakeCXXCompilerABI.cpp"
+          Microsoft (R) C/C++ Optimizing Compiler Version 19.43.34809 for x64
+          Copyright (C) Microsoft Corporation.  All rights reserved.
+          cl /c /Zi /W1 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D _MBCS /D "CMAKE_INTDIR=\\"Debug\\"" /EHsc /RTC1 /MDd /Fo"cmTC_06bce.dir\\Debug\\\\" /Fd"cmTC_06bce.dir\\Debug\\vc143.pdb" /external:W1 /TP /errorReport:queue "C:\\Program Files\\CMake\\share\\cmake-4.2\\Modules\\CMakeCXXCompilerABI.cpp"
+          CMakeCXXCompilerABI.cpp
+        Link:
+          C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.43.34808\\bin\\HostX64\\x64\\link.exe /OUT:"C:\\Users\\╨ж╨╡╤Ж╨╛\\Desktop\\clock\\build\\CMakeFiles\\CMakeScratch\\TryCompile-wtljve\\Debug\\cmTC_06bce.exe" /INCREMENTAL /ILK:"cmTC_06bce.dir\\Debug\\cmTC_06bce.ilk" /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:/Users/╨ж╨╡╤Ж╨╛/Desktop/clock/build/CMakeFiles/CMakeScratch/TryCompile-wtljve/Debug/cmTC_06bce.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /IMPLIB:"C:/Users/╨ж╨╡╤Ж╨╛/Desktop/clock/build/CMakeFiles/CMakeScratch/TryCompile-wtljve/Debug/cmTC_06bce.lib" /MACHINE:X64  /machine:x64 cmTC_06bce.dir\\Debug\\CMakeCXXCompilerABI.obj
+          cmTC_06bce.vcxproj -> C:\\Users\\╨ж╨╡╤Ж╨╛\\Desktop\\clock\\build\\CMakeFiles\\CMakeScratch\\TryCompile-wtljve\\Debug\\cmTC_06bce.exe
+        FinalizeBuildStatus:
+          Deleting file "cmTC_06bce.dir\\Debug\\cmTC_06bce.tlog\\unsuccessfulbuild".
+          Touching "cmTC_06bce.dir\\Debug\\cmTC_06bce.tlog\\cmTC_06bce.lastbuildstate".
+        Done Building Project "C:\\Users\\╨ж╨╡╤Ж╨╛\\Desktop\\clock\\build\\CMakeFiles\\CMakeScratch\\TryCompile-wtljve\\cmTC_06bce.vcxproj" (default targets).
+        
+        Build succeeded.
+            0 Warning(s)
+            0 Error(s)
+        
+        Time Elapsed 00:00:00.60
+        
+      exitCode: 0
+  -
+    kind: "message-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-4.2/Modules/CMakeDetermineCompilerABI.cmake:253 (message)"
+      - "C:/Program Files/CMake/share/cmake-4.2/Modules/CMakeTestCXXCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt:3 (project)"
+    message: |
+      Parsed CXX implicit link information:
+        link line regex: [^( *|.*[/\\])(ld[0-9]*(|\\.[a-rt-z][a-z]*|\\.s[a-np-z][a-z]*|\\.so[a-z]+)|link\\.exe|lld-link(\\.exe)?|CMAKE_LINK_STARTFILE-NOTFOUND|([^/\\]+-)?ld|collect2)[^/\\]*( |$)]
+        linker tool regex: [^[ 	]*(->|"|[0-9]+>[ 	-]*Build:[ 	0-9]+ ms[ 	]*)?[ 	]*(([^"]*[/\\])?(ld[0-9]*(|\\.[a-rt-z][a-z]*|\\.s[a-np-z][a-z]*|\\.so[a-z]+)|link\\.exe|lld-link(\\.exe)?))("|,| |$)]
+        linker tool for 'CXX': C:/Program Files/Microsoft Visual Studio/2022/Community/VC/Tools/MSVC/14.43.34808/bin/HostX64/x64/link.exe
+        implicit libs: []
+        implicit objs: []
+        implicit dirs: []
+        implicit fwks: []
+      
+      
+  -
+    kind: "message-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-4.2/Modules/Internal/CMakeDetermineLinkerId.cmake:38 (message)"
+      - "C:/Program Files/CMake/share/cmake-4.2/Modules/CMakeDetermineCompilerABI.cmake:299 (cmake_determine_linker_id)"
+      - "C:/Program Files/CMake/share/cmake-4.2/Modules/CMakeTestCXXCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt:3 (project)"
+    message: |
+      Running the CXX compiler's linker: "C:/Program Files/Microsoft Visual Studio/2022/Community/VC/Tools/MSVC/14.43.34808/bin/HostX64/x64/link.exe" "-v"
+      Microsoft (R) Incremental Linker Version 14.43.34809.0
+      Copyright (C) Microsoft Corporation.  All rights reserved.
+  -
+    kind: "find-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-4.2/Modules/FindGit.cmake:111 (find_program)"
+      - "C:/Program Files/CMake/share/cmake-4.2/Modules/FetchContent.cmake:1884 (find_package)"
+      - "C:/Program Files/CMake/share/cmake-4.2/Modules/FetchContent.cmake:1619 (__FetchContent_populateSubbuild)"
+      - "C:/Program Files/CMake/share/cmake-4.2/Modules/FetchContent.cmake:2155:EVAL:2 (__FetchContent_doPopulation)"
+      - "C:/Program Files/CMake/share/cmake-4.2/Modules/FetchContent.cmake:2155 (cmake_language)"
+      - "C:/Program Files/CMake/share/cmake-4.2/Modules/FetchContent.cmake:2394 (__FetchContent_Populate)"
+      - "CMakeLists.txt:41 (FetchContent_MakeAvailable)"
+    mode: "program"
+    variable: "GIT_EXECUTABLE"
+    description: "Git command line client"
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: true
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "git.cmd"
+      - "git"
+    candidate_directories:
+      - "D:/Anaconda/condabin/"
+      - "C:/Windows/System32/"
+      - "C:/Windows/"
+      - "C:/Windows/System32/wbem/"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/"
+      - "C:/Windows/System32/OpenSSH/"
+      - "C:/Program Files/dotnet/"
+      - "C:/Program Files/nodejs/"
+      - "C:/Program Files/Microsoft SQL Server/Client SDK/ODBC/170/Tools/Binn/"
+      - "C:/Program Files (x86)/Microsoft SQL Server/150/Tools/Binn/"
+      - "C:/Program Files/Microsoft SQL Server/150/Tools/Binn/"
+      - "C:/Program Files/Microsoft SQL Server/150/DTS/Binn/"
+      - "C:/Program Files (x86)/Windows Kits/8.1/Windows Performance Toolkit/"
+      - "D:/Anaconda/"
+      - "D:/Anaconda/Scripts/"
+      - "D:/Anaconda/Library/bin/"
+      - "D:/Git/cmd/"
+      - "C:/Program Files/Docker/Docker/resources/bin/"
+      - "D:/Windows Kits/10/Windows Performance Toolkit/"
+      - "C:/Program Files/CMake/bin/"
+      - "C:/Users/\u0426\u0435\u0446\u043e/.pyenv/pyenv-win/bin/"
+      - "C:/Users/\u0426\u0435\u0446\u043e/.pyenv/pyenv-win/shims/"
+      - "D:/Python/Scripts/"
+      - "D:/Python/"
+      - "C:/Users/\u0426\u0435\u0446\u043e/AppData/Local/Microsoft/WindowsApps/"
+      - "C:/Users/\u0426\u0435\u0446\u043e/.dotnet/tools/"
+      - "C:/Users/\u0426\u0435\u0446\u043e/AppData/Local/Programs/Microsoft VS Code/bin/"
+      - "C:/Users/\u0426\u0435\u0446\u043e/AppData/Roaming/npm/"
+      - "D:/PyCharm Community Edition 2022.2.3/bin/"
+      - "C:/ProgramData/Microsoft/Windows/Start Menu/Programs/Git/"
+      - "D:/cursor/resources/app/bin/"
+      - "C:/Program Files/bin/"
+      - "C:/Program Files/sbin/"
+      - "C:/Program Files/"
+      - "C:/Program Files (x86)/bin/"
+      - "C:/Program Files (x86)/sbin/"
+      - "C:/Program Files (x86)/"
+      - "C:/Program Files/CMake/bin/"
+      - "C:/Program Files/CMake/sbin/"
+      - "C:/Program Files/CMake/"
+      - "C:/Program Files (x86)/ClockSimulation/bin/"
+      - "C:/Program Files (x86)/ClockSimulation/sbin/"
+      - "C:/Program Files (x86)/ClockSimulation/"
+      - "C:/Users/\u0426\u0435\u0446\u043e/AppData/Local/Atlassian/SourceTree/git_local/bin/"
+    searched_directories:
+      - "D:/Anaconda/condabin/git.cmd.com"
+      - "D:/Anaconda/condabin/git.cmd.exe"
+      - "D:/Anaconda/condabin/git.cmd"
+      - "C:/Windows/System32/git.cmd.com"
+      - "C:/Windows/System32/git.cmd.exe"
+      - "C:/Windows/System32/git.cmd"
+      - "C:/Windows/git.cmd.com"
+      - "C:/Windows/git.cmd.exe"
+      - "C:/Windows/git.cmd"
+      - "C:/Windows/System32/wbem/git.cmd.com"
+      - "C:/Windows/System32/wbem/git.cmd.exe"
+      - "C:/Windows/System32/wbem/git.cmd"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/git.cmd.com"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/git.cmd.exe"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/git.cmd"
+      - "C:/Windows/System32/OpenSSH/git.cmd.com"
+      - "C:/Windows/System32/OpenSSH/git.cmd.exe"
+      - "C:/Windows/System32/OpenSSH/git.cmd"
+      - "C:/Program Files/dotnet/git.cmd.com"
+      - "C:/Program Files/dotnet/git.cmd.exe"
+      - "C:/Program Files/dotnet/git.cmd"
+      - "C:/Program Files/nodejs/git.cmd.com"
+      - "C:/Program Files/nodejs/git.cmd.exe"
+      - "C:/Program Files/nodejs/git.cmd"
+      - "C:/Program Files/Microsoft SQL Server/Client SDK/ODBC/170/Tools/Binn/git.cmd.com"
+      - "C:/Program Files/Microsoft SQL Server/Client SDK/ODBC/170/Tools/Binn/git.cmd.exe"
+      - "C:/Program Files/Microsoft SQL Server/Client SDK/ODBC/170/Tools/Binn/git.cmd"
+      - "C:/Program Files (x86)/Microsoft SQL Server/150/Tools/Binn/git.cmd.com"
+      - "C:/Program Files (x86)/Microsoft SQL Server/150/Tools/Binn/git.cmd.exe"
+      - "C:/Program Files (x86)/Microsoft SQL Server/150/Tools/Binn/git.cmd"
+      - "C:/Program Files/Microsoft SQL Server/150/Tools/Binn/git.cmd.com"
+      - "C:/Program Files/Microsoft SQL Server/150/Tools/Binn/git.cmd.exe"
+      - "C:/Program Files/Microsoft SQL Server/150/Tools/Binn/git.cmd"
+      - "C:/Program Files/Microsoft SQL Server/150/DTS/Binn/git.cmd.com"
+      - "C:/Program Files/Microsoft SQL Server/150/DTS/Binn/git.cmd.exe"
+      - "C:/Program Files/Microsoft SQL Server/150/DTS/Binn/git.cmd"
+      - "C:/Program Files (x86)/Windows Kits/8.1/Windows Performance Toolkit/git.cmd.com"
+      - "C:/Program Files (x86)/Windows Kits/8.1/Windows Performance Toolkit/git.cmd.exe"
+      - "C:/Program Files (x86)/Windows Kits/8.1/Windows Performance Toolkit/git.cmd"
+      - "D:/Anaconda/git.cmd.com"
+      - "D:/Anaconda/git.cmd.exe"
+      - "D:/Anaconda/git.cmd"
+      - "D:/Anaconda/Scripts/git.cmd.com"
+      - "D:/Anaconda/Scripts/git.cmd.exe"
+      - "D:/Anaconda/Scripts/git.cmd"
+      - "D:/Anaconda/Library/bin/git.cmd.com"
+      - "D:/Anaconda/Library/bin/git.cmd.exe"
+      - "D:/Anaconda/Library/bin/git.cmd"
+      - "D:/Git/cmd/git.cmd.com"
+      - "D:/Git/cmd/git.cmd.exe"
+      - "D:/Git/cmd/git.cmd"
+      - "C:/Program Files/Docker/Docker/resources/bin/git.cmd.com"
+      - "C:/Program Files/Docker/Docker/resources/bin/git.cmd.exe"
+      - "C:/Program Files/Docker/Docker/resources/bin/git.cmd"
+      - "D:/Windows Kits/10/Windows Performance Toolkit/git.cmd.com"
+      - "D:/Windows Kits/10/Windows Performance Toolkit/git.cmd.exe"
+      - "D:/Windows Kits/10/Windows Performance Toolkit/git.cmd"
+      - "C:/Program Files/CMake/bin/git.cmd.com"
+      - "C:/Program Files/CMake/bin/git.cmd.exe"
+      - "C:/Program Files/CMake/bin/git.cmd"
+      - "C:/Users/\u0426\u0435\u0446\u043e/.pyenv/pyenv-win/bin/git.cmd.com"
+      - "C:/Users/\u0426\u0435\u0446\u043e/.pyenv/pyenv-win/bin/git.cmd.exe"
+      - "C:/Users/\u0426\u0435\u0446\u043e/.pyenv/pyenv-win/bin/git.cmd"
+      - "C:/Users/\u0426\u0435\u0446\u043e/.pyenv/pyenv-win/shims/git.cmd.com"
+      - "C:/Users/\u0426\u0435\u0446\u043e/.pyenv/pyenv-win/shims/git.cmd.exe"
+      - "C:/Users/\u0426\u0435\u0446\u043e/.pyenv/pyenv-win/shims/git.cmd"
+      - "D:/Python/Scripts/git.cmd.com"
+      - "D:/Python/Scripts/git.cmd.exe"
+      - "D:/Python/Scripts/git.cmd"
+      - "D:/Python/git.cmd.com"
+      - "D:/Python/git.cmd.exe"
+      - "D:/Python/git.cmd"
+      - "C:/Users/\u0426\u0435\u0446\u043e/AppData/Local/Microsoft/WindowsApps/git.cmd.com"
+      - "C:/Users/\u0426\u0435\u0446\u043e/AppData/Local/Microsoft/WindowsApps/git.cmd.exe"
+      - "C:/Users/\u0426\u0435\u0446\u043e/AppData/Local/Microsoft/WindowsApps/git.cmd"
+      - "C:/Users/\u0426\u0435\u0446\u043e/.dotnet/tools/git.cmd.com"
+      - "C:/Users/\u0426\u0435\u0446\u043e/.dotnet/tools/git.cmd.exe"
+      - "C:/Users/\u0426\u0435\u0446\u043e/.dotnet/tools/git.cmd"
+      - "C:/Users/\u0426\u0435\u0446\u043e/AppData/Local/Programs/Microsoft VS Code/bin/git.cmd.com"
+      - "C:/Users/\u0426\u0435\u0446\u043e/AppData/Local/Programs/Microsoft VS Code/bin/git.cmd.exe"
+      - "C:/Users/\u0426\u0435\u0446\u043e/AppData/Local/Programs/Microsoft VS Code/bin/git.cmd"
+      - "C:/Users/\u0426\u0435\u0446\u043e/AppData/Roaming/npm/git.cmd.com"
+      - "C:/Users/\u0426\u0435\u0446\u043e/AppData/Roaming/npm/git.cmd.exe"
+      - "C:/Users/\u0426\u0435\u0446\u043e/AppData/Roaming/npm/git.cmd"
+      - "D:/PyCharm Community Edition 2022.2.3/bin/git.cmd.com"
+      - "D:/PyCharm Community Edition 2022.2.3/bin/git.cmd.exe"
+      - "D:/PyCharm Community Edition 2022.2.3/bin/git.cmd"
+      - "C:/ProgramData/Microsoft/Windows/Start Menu/Programs/Git/git.cmd.com"
+      - "C:/ProgramData/Microsoft/Windows/Start Menu/Programs/Git/git.cmd.exe"
+      - "C:/ProgramData/Microsoft/Windows/Start Menu/Programs/Git/git.cmd"
+      - "D:/cursor/resources/app/bin/git.cmd.com"
+      - "D:/cursor/resources/app/bin/git.cmd.exe"
+      - "D:/cursor/resources/app/bin/git.cmd"
+      - "C:/Program Files/bin/git.cmd.com"
+      - "C:/Program Files/bin/git.cmd.exe"
+      - "C:/Program Files/bin/git.cmd"
+      - "C:/Program Files/sbin/git.cmd.com"
+      - "C:/Program Files/sbin/git.cmd.exe"
+      - "C:/Program Files/sbin/git.cmd"
+      - "C:/Program Files/git.cmd.com"
+      - "C:/Program Files/git.cmd.exe"
+      - "C:/Program Files/git.cmd"
+      - "C:/Program Files (x86)/bin/git.cmd.com"
+      - "C:/Program Files (x86)/bin/git.cmd.exe"
+      - "C:/Program Files (x86)/bin/git.cmd"
+      - "C:/Program Files (x86)/sbin/git.cmd.com"
+      - "C:/Program Files (x86)/sbin/git.cmd.exe"
+      - "C:/Program Files (x86)/sbin/git.cmd"
+      - "C:/Program Files (x86)/git.cmd.com"
+      - "C:/Program Files (x86)/git.cmd.exe"
+      - "C:/Program Files (x86)/git.cmd"
+      - "C:/Program Files/CMake/bin/git.cmd.com"
+      - "C:/Program Files/CMake/bin/git.cmd.exe"
+      - "C:/Program Files/CMake/bin/git.cmd"
+      - "C:/Program Files/CMake/sbin/git.cmd.com"
+      - "C:/Program Files/CMake/sbin/git.cmd.exe"
+      - "C:/Program Files/CMake/sbin/git.cmd"
+      - "C:/Program Files/CMake/git.cmd.com"
+      - "C:/Program Files/CMake/git.cmd.exe"
+      - "C:/Program Files/CMake/git.cmd"
+      - "C:/Program Files (x86)/ClockSimulation/bin/git.cmd.com"
+      - "C:/Program Files (x86)/ClockSimulation/bin/git.cmd.exe"
+      - "C:/Program Files (x86)/ClockSimulation/bin/git.cmd"
+      - "C:/Program Files (x86)/ClockSimulation/sbin/git.cmd.com"
+      - "C:/Program Files (x86)/ClockSimulation/sbin/git.cmd.exe"
+      - "C:/Program Files (x86)/ClockSimulation/sbin/git.cmd"
+      - "C:/Program Files (x86)/ClockSimulation/git.cmd.com"
+      - "C:/Program Files (x86)/ClockSimulation/git.cmd.exe"
+      - "C:/Program Files (x86)/ClockSimulation/git.cmd"
+      - "C:/Users/\u0426\u0435\u0446\u043e/AppData/Local/Atlassian/SourceTree/git_local/bin/git.cmd.com"
+      - "C:/Users/\u0426\u0435\u0446\u043e/AppData/Local/Atlassian/SourceTree/git_local/bin/git.cmd.exe"
+      - "C:/Users/\u0426\u0435\u0446\u043e/AppData/Local/Atlassian/SourceTree/git_local/bin/git.cmd"
+      - "D:/Anaconda/condabin/git.com"
+      - "D:/Anaconda/condabin/git.exe"
+      - "D:/Anaconda/condabin/git"
+      - "C:/Windows/System32/git.com"
+      - "C:/Windows/System32/git.exe"
+      - "C:/Windows/System32/git"
+      - "C:/Windows/git.com"
+      - "C:/Windows/git.exe"
+      - "C:/Windows/git"
+      - "C:/Windows/System32/wbem/git.com"
+      - "C:/Windows/System32/wbem/git.exe"
+      - "C:/Windows/System32/wbem/git"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/git.com"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/git.exe"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/git"
+      - "C:/Windows/System32/OpenSSH/git.com"
+      - "C:/Windows/System32/OpenSSH/git.exe"
+      - "C:/Windows/System32/OpenSSH/git"
+      - "C:/Program Files/dotnet/git.com"
+      - "C:/Program Files/dotnet/git.exe"
+      - "C:/Program Files/dotnet/git"
+      - "C:/Program Files/nodejs/git.com"
+      - "C:/Program Files/nodejs/git.exe"
+      - "C:/Program Files/nodejs/git"
+      - "C:/Program Files/Microsoft SQL Server/Client SDK/ODBC/170/Tools/Binn/git.com"
+      - "C:/Program Files/Microsoft SQL Server/Client SDK/ODBC/170/Tools/Binn/git.exe"
+      - "C:/Program Files/Microsoft SQL Server/Client SDK/ODBC/170/Tools/Binn/git"
+      - "C:/Program Files (x86)/Microsoft SQL Server/150/Tools/Binn/git.com"
+      - "C:/Program Files (x86)/Microsoft SQL Server/150/Tools/Binn/git.exe"
+      - "C:/Program Files (x86)/Microsoft SQL Server/150/Tools/Binn/git"
+      - "C:/Program Files/Microsoft SQL Server/150/Tools/Binn/git.com"
+      - "C:/Program Files/Microsoft SQL Server/150/Tools/Binn/git.exe"
+      - "C:/Program Files/Microsoft SQL Server/150/Tools/Binn/git"
+      - "C:/Program Files/Microsoft SQL Server/150/DTS/Binn/git.com"
+      - "C:/Program Files/Microsoft SQL Server/150/DTS/Binn/git.exe"
+      - "C:/Program Files/Microsoft SQL Server/150/DTS/Binn/git"
+      - "C:/Program Files (x86)/Windows Kits/8.1/Windows Performance Toolkit/git.com"
+      - "C:/Program Files (x86)/Windows Kits/8.1/Windows Performance Toolkit/git.exe"
+      - "C:/Program Files (x86)/Windows Kits/8.1/Windows Performance Toolkit/git"
+      - "D:/Anaconda/git.com"
+      - "D:/Anaconda/git.exe"
+      - "D:/Anaconda/git"
+      - "D:/Anaconda/Scripts/git.com"
+      - "D:/Anaconda/Scripts/git.exe"
+      - "D:/Anaconda/Scripts/git"
+      - "D:/Anaconda/Library/bin/git.com"
+      - "D:/Anaconda/Library/bin/git.exe"
+      - "D:/Anaconda/Library/bin/git"
+      - "D:/Git/cmd/git.com"
+    found: "D:/Git/cmd/git.exe"
+    search_context:
+      ENV{PATH}:
+        - "D:\\Anaconda\\condabin"
+        - "C:\\Windows\\system32"
+        - "C:\\Windows"
+        - "C:\\Windows\\System32\\Wbem"
+        - "C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\"
+        - "C:\\Windows\\System32\\OpenSSH\\"
+        - "C:\\Program Files\\dotnet\\"
+        - "C:\\Program Files\\nodejs\\"
+        - "C:\\Program Files\\Microsoft SQL Server\\Client SDK\\ODBC\\170\\Tools\\Binn\\"
+        - "C:\\Program Files (x86)\\Microsoft SQL Server\\150\\Tools\\Binn\\"
+        - "C:\\Program Files\\Microsoft SQL Server\\150\\Tools\\Binn\\"
+        - "C:\\Program Files\\Microsoft SQL Server\\150\\DTS\\Binn\\"
+        - "C:\\Program Files (x86)\\Windows Kits\\8.1\\Windows Performance Toolkit\\"
+        - "D:\\Anaconda"
+        - "D:\\Anaconda\\Scripts"
+        - "D:\\Anaconda\\Library\\bin"
+        - "D:\\Git\\cmd"
+        - "C:\\Program Files\\Docker\\Docker\\resources\\bin"
+        - "D:\\Windows Kits\\10\\Windows Performance Toolkit\\"
+        - "C:\\Program Files\\CMake\\bin"
+        - "C:\\Users\\\u0426\u0435\u0446\u043e\\.pyenv\\pyenv-win\\bin"
+        - "C:\\Users\\\u0426\u0435\u0446\u043e\\.pyenv\\pyenv-win\\shims"
+        - "D:\\Python\\Scripts\\"
+        - "D:\\Python\\"
+        - "C:\\Users\\\u0426\u0435\u0446\u043e\\AppData\\Local\\Microsoft\\WindowsApps"
+        - "C:\\Users\\\u0426\u0435\u0446\u043e\\.dotnet\\tools"
+        - "C:\\Users\\\u0426\u0435\u0446\u043e\\AppData\\Local\\Programs\\Microsoft VS Code\\bin"
+        - "C:\\Users\\\u0426\u0435\u0446\u043e\\AppData\\Roaming\\npm"
+        - "D:\\PyCharm Community Edition 2022.2.3\\bin"
+        - "C:\\ProgramData\\Microsoft\\Windows\\Start Menu\\Programs\\Git"
+        - "C:\\Users\\\u0426\u0435\u0446\u043e\\.dotnet\\tools"
+        - "D:\\cursor\\resources\\app\\bin"
+      CMAKE_INSTALL_PREFIX: "C:/Program Files (x86)/ClockSimulation"
+      CMAKE_SYSTEM_PREFIX_PATH:
+        - "C:/Program Files"
+        - "C:/Program Files (x86)"
+        - "C:/Program Files/CMake"
+        - "C:/Program Files (x86)/ClockSimulation"
+  -
+    kind: "find-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-4.2/Modules/CMakeDetermineCompilerId.cmake:462 (find_file)"
+      - "C:/Program Files/CMake/share/cmake-4.2/Modules/CMakeDetermineCompilerId.cmake:500 (CMAKE_DETERMINE_COMPILER_ID_WRITE)"
+      - "C:/Program Files/CMake/share/cmake-4.2/Modules/CMakeDetermineCompilerId.cmake:8 (CMAKE_DETERMINE_COMPILER_ID_BUILD)"
+      - "C:/Program Files/CMake/share/cmake-4.2/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
+      - "C:/Program Files/CMake/share/cmake-4.2/Modules/CMakeDetermineCCompiler.cmake:122 (CMAKE_DETERMINE_COMPILER_ID)"
+      - "build/_deps/glfw-src/CMakeLists.txt:3 (project)"
+    mode: "file"
+    variable: "src_in"
+    description: "Path to a file."
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: true
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "CMakeCCompilerId.c.in"
+    candidate_directories:
+      - "C:/Program Files/CMake/share/cmake-4.2/Modules/"
+    found: "C:/Program Files/CMake/share/cmake-4.2/Modules/CMakeCCompilerId.c.in"
+    search_context:
+      ENV{PATH}:
+        - "D:\\Anaconda\\condabin"
+        - "C:\\Windows\\system32"
+        - "C:\\Windows"
+        - "C:\\Windows\\System32\\Wbem"
+        - "C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\"
+        - "C:\\Windows\\System32\\OpenSSH\\"
+        - "C:\\Program Files\\dotnet\\"
+        - "C:\\Program Files\\nodejs\\"
+        - "C:\\Program Files\\Microsoft SQL Server\\Client SDK\\ODBC\\170\\Tools\\Binn\\"
+        - "C:\\Program Files (x86)\\Microsoft SQL Server\\150\\Tools\\Binn\\"
+        - "C:\\Program Files\\Microsoft SQL Server\\150\\Tools\\Binn\\"
+        - "C:\\Program Files\\Microsoft SQL Server\\150\\DTS\\Binn\\"
+        - "C:\\Program Files (x86)\\Windows Kits\\8.1\\Windows Performance Toolkit\\"
+        - "D:\\Anaconda"
+        - "D:\\Anaconda\\Scripts"
+        - "D:\\Anaconda\\Library\\bin"
+        - "D:\\Git\\cmd"
+        - "C:\\Program Files\\Docker\\Docker\\resources\\bin"
+        - "D:\\Windows Kits\\10\\Windows Performance Toolkit\\"
+        - "C:\\Program Files\\CMake\\bin"
+        - "C:\\Users\\\u0426\u0435\u0446\u043e\\.pyenv\\pyenv-win\\bin"
+        - "C:\\Users\\\u0426\u0435\u0446\u043e\\.pyenv\\pyenv-win\\shims"
+        - "D:\\Python\\Scripts\\"
+        - "D:\\Python\\"
+        - "C:\\Users\\\u0426\u0435\u0446\u043e\\AppData\\Local\\Microsoft\\WindowsApps"
+        - "C:\\Users\\\u0426\u0435\u0446\u043e\\.dotnet\\tools"
+        - "C:\\Users\\\u0426\u0435\u0446\u043e\\AppData\\Local\\Programs\\Microsoft VS Code\\bin"
+        - "C:\\Users\\\u0426\u0435\u0446\u043e\\AppData\\Roaming\\npm"
+        - "D:\\PyCharm Community Edition 2022.2.3\\bin"
+        - "C:\\ProgramData\\Microsoft\\Windows\\Start Menu\\Programs\\Git"
+        - "C:\\Users\\\u0426\u0435\u0446\u043e\\.dotnet\\tools"
+        - "D:\\cursor\\resources\\app\\bin"
+      CMAKE_INSTALL_PREFIX: "C:/Program Files (x86)/ClockSimulation"
+      CMAKE_SYSTEM_PREFIX_PATH:
+        - "C:/Program Files"
+        - "C:/Program Files (x86)"
+        - "C:/Program Files/CMake"
+        - "C:/Program Files (x86)/ClockSimulation"
+  -
+    kind: "message-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-4.2/Modules/CMakeDetermineCompilerId.cmake:17 (message)"
+      - "C:/Program Files/CMake/share/cmake-4.2/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
+      - "C:/Program Files/CMake/share/cmake-4.2/Modules/CMakeDetermineCCompiler.cmake:122 (CMAKE_DETERMINE_COMPILER_ID)"
+      - "build/_deps/glfw-src/CMakeLists.txt:3 (project)"
+    message: |
+      Compiling the C compiler identification source file "CMakeCCompilerId.c" succeeded.
+      Compiler:  
+      Build flags: 
+      Id flags:  
+      
+      The output was:
+      0
+      MSBuild version 17.13.19+0d9f5a35a for .NET Framework
+      Build started 30.11.2025 ╨│. 12:35:40.
+      
+      Project "C:\\Users\\╨ж╨╡╤Ж╨╛\\Desktop\\clock\\build\\CMakeFiles\\4.2.0-rc2\\CompilerIdC\\CompilerIdC.vcxproj" on node 1 (default targets).
+      PrepareForBuild:
+        Creating directory "Debug\\".
+        Structured output is enabled. The formatting of compiler diagnostics will reflect the error hierarchy. See https://aka.ms/cpp/structured-output for more details.
+        Creating directory "Debug\\CompilerIdC.tlog\\".
+      InitializeBuildStatus:
+        Creating "Debug\\CompilerIdC.tlog\\unsuccessfulbuild" because "AlwaysCreate" was specified.
+        Touching "Debug\\CompilerIdC.tlog\\unsuccessfulbuild".
+      ClCompile:
+        C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.43.34808\\bin\\HostX64\\x64\\CL.exe /c /nologo /W0 /WX- /diagnostics:column /Od /D _MBCS /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"Debug\\\\" /Fd"Debug\\vc143.pdb" /external:W0 /Gd /TC /FC /errorReport:queue CMakeCCompilerId.c
+        CMakeCCompilerId.c
+      Link:
+        C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.43.34808\\bin\\HostX64\\x64\\link.exe /ERRORREPORT:QUEUE /OUT:".\\CompilerIdC.exe" /INCREMENTAL:NO /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /PDB:".\\CompilerIdC.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:".\\CompilerIdC.lib" /MACHINE:X64 Debug\\CMakeCCompilerId.obj
+        CompilerIdC.vcxproj -> C:\\Users\\╨ж╨╡╤Ж╨╛\\Desktop\\clock\\build\\CMakeFiles\\4.2.0-rc2\\CompilerIdC\\CompilerIdC.exe
+      PostBuildEvent:
+        for %%i in (cl.exe) do @echo CMAKE_C_COMPILER=%%~$PATH:i
+        :VCEnd
+        CMAKE_C_COMPILER=C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.43.34808\\bin\\Hostx64\\x64\\cl.exe
+      FinalizeBuildStatus:
+        Deleting file "Debug\\CompilerIdC.tlog\\unsuccessfulbuild".
+        Touching "Debug\\CompilerIdC.tlog\\CompilerIdC.lastbuildstate".
+      Done Building Project "C:\\Users\\╨ж╨╡╤Ж╨╛\\Desktop\\clock\\build\\CMakeFiles\\4.2.0-rc2\\CompilerIdC\\CompilerIdC.vcxproj" (default targets).
+      
+      Build succeeded.
+          0 Warning(s)
+          0 Error(s)
+      
+      Time Elapsed 00:00:00.57
+      
+      
+      Compilation of the C compiler identification source "CMakeCCompilerId.c" produced "CompilerIdC.exe"
+      
+      Compilation of the C compiler identification source "CMakeCCompilerId.c" produced "CompilerIdC.vcxproj"
+      
+      The C compiler identification is MSVC, found in:
+        C:/Users/Цецо/Desktop/clock/build/CMakeFiles/4.2.0-rc2/CompilerIdC/CompilerIdC.exe
+      
+  -
+    kind: "find-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-4.2/Modules/CMakeFindBinUtils.cmake:37 (find_program)"
+      - "C:/Program Files/CMake/share/cmake-4.2/Modules/CMakeFindBinUtils.cmake:65 (__resolve_tool_path)"
+      - "C:/Program Files/CMake/share/cmake-4.2/Modules/CMakeFindBinUtils.cmake:104 (__resolve_linker_path)"
+      - "C:/Program Files/CMake/share/cmake-4.2/Modules/CMakeDetermineCCompiler.cmake:200 (include)"
+      - "build/_deps/glfw-src/CMakeLists.txt:3 (project)"
+    mode: "program"
+    variable: "_CMAKE_TOOL_WITH_PATH"
+    description: "Path to a program."
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: false
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: false
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "lld-link"
+    candidate_directories:
+      - "C:/Program Files/Microsoft Visual Studio/2022/Community/VC/Tools/MSVC/14.43.34808/bin/Hostx64/x64/"
+      - "D:/Anaconda/condabin/"
+      - "C:/Windows/System32/"
+      - "C:/Windows/"
+      - "C:/Windows/System32/wbem/"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/"
+      - "C:/Windows/System32/OpenSSH/"
+      - "C:/Program Files/dotnet/"
+      - "C:/Program Files/nodejs/"
+      - "C:/Program Files/Microsoft SQL Server/Client SDK/ODBC/170/Tools/Binn/"
+      - "C:/Program Files (x86)/Microsoft SQL Server/150/Tools/Binn/"
+      - "C:/Program Files/Microsoft SQL Server/150/Tools/Binn/"
+      - "C:/Program Files/Microsoft SQL Server/150/DTS/Binn/"
+      - "C:/Program Files (x86)/Windows Kits/8.1/Windows Performance Toolkit/"
+      - "D:/Anaconda/"
+      - "D:/Anaconda/Scripts/"
+      - "D:/Anaconda/Library/bin/"
+      - "D:/Git/cmd/"
+      - "C:/Program Files/Docker/Docker/resources/bin/"
+      - "D:/Windows Kits/10/Windows Performance Toolkit/"
+      - "C:/Program Files/CMake/bin/"
+      - "C:/Users/\u0426\u0435\u0446\u043e/.pyenv/pyenv-win/bin/"
+      - "C:/Users/\u0426\u0435\u0446\u043e/.pyenv/pyenv-win/shims/"
+      - "D:/Python/Scripts/"
+      - "D:/Python/"
+      - "C:/Users/\u0426\u0435\u0446\u043e/AppData/Local/Microsoft/WindowsApps/"
+      - "C:/Users/\u0426\u0435\u0446\u043e/.dotnet/tools/"
+      - "C:/Users/\u0426\u0435\u0446\u043e/AppData/Local/Programs/Microsoft VS Code/bin/"
+      - "C:/Users/\u0426\u0435\u0446\u043e/AppData/Roaming/npm/"
+      - "D:/PyCharm Community Edition 2022.2.3/bin/"
+      - "C:/ProgramData/Microsoft/Windows/Start Menu/Programs/Git/"
+      - "D:/cursor/resources/app/bin/"
+      - "C:/Program Files/bin/"
+      - "C:/Program Files/sbin/"
+      - "C:/Program Files/"
+      - "C:/Program Files (x86)/bin/"
+      - "C:/Program Files (x86)/sbin/"
+      - "C:/Program Files (x86)/"
+      - "C:/Program Files/CMake/bin/"
+      - "C:/Program Files/CMake/sbin/"
+      - "C:/Program Files/CMake/"
+      - "C:/Program Files (x86)/ClockSimulation/bin/"
+      - "C:/Program Files (x86)/ClockSimulation/sbin/"
+      - "C:/Program Files (x86)/ClockSimulation/"
+    searched_directories:
+      - "C:/Program Files/Microsoft Visual Studio/2022/Community/VC/Tools/MSVC/14.43.34808/bin/Hostx64/x64/lld-link.com"
+      - "C:/Program Files/Microsoft Visual Studio/2022/Community/VC/Tools/MSVC/14.43.34808/bin/Hostx64/x64/lld-link.exe"
+      - "C:/Program Files/Microsoft Visual Studio/2022/Community/VC/Tools/MSVC/14.43.34808/bin/Hostx64/x64/lld-link"
+      - "D:/Anaconda/condabin/lld-link.com"
+      - "D:/Anaconda/condabin/lld-link.exe"
+      - "D:/Anaconda/condabin/lld-link"
+      - "C:/Windows/System32/lld-link.com"
+      - "C:/Windows/System32/lld-link.exe"
+      - "C:/Windows/System32/lld-link"
+      - "C:/Windows/lld-link.com"
+      - "C:/Windows/lld-link.exe"
+      - "C:/Windows/lld-link"
+      - "C:/Windows/System32/wbem/lld-link.com"
+      - "C:/Windows/System32/wbem/lld-link.exe"
+      - "C:/Windows/System32/wbem/lld-link"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/lld-link.com"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/lld-link.exe"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/lld-link"
+      - "C:/Windows/System32/OpenSSH/lld-link.com"
+      - "C:/Windows/System32/OpenSSH/lld-link.exe"
+      - "C:/Windows/System32/OpenSSH/lld-link"
+      - "C:/Program Files/dotnet/lld-link.com"
+      - "C:/Program Files/dotnet/lld-link.exe"
+      - "C:/Program Files/dotnet/lld-link"
+      - "C:/Program Files/nodejs/lld-link.com"
+      - "C:/Program Files/nodejs/lld-link.exe"
+      - "C:/Program Files/nodejs/lld-link"
+      - "C:/Program Files/Microsoft SQL Server/Client SDK/ODBC/170/Tools/Binn/lld-link.com"
+      - "C:/Program Files/Microsoft SQL Server/Client SDK/ODBC/170/Tools/Binn/lld-link.exe"
+      - "C:/Program Files/Microsoft SQL Server/Client SDK/ODBC/170/Tools/Binn/lld-link"
+      - "C:/Program Files (x86)/Microsoft SQL Server/150/Tools/Binn/lld-link.com"
+      - "C:/Program Files (x86)/Microsoft SQL Server/150/Tools/Binn/lld-link.exe"
+      - "C:/Program Files (x86)/Microsoft SQL Server/150/Tools/Binn/lld-link"
+      - "C:/Program Files/Microsoft SQL Server/150/Tools/Binn/lld-link.com"
+      - "C:/Program Files/Microsoft SQL Server/150/Tools/Binn/lld-link.exe"
+      - "C:/Program Files/Microsoft SQL Server/150/Tools/Binn/lld-link"
+      - "C:/Program Files/Microsoft SQL Server/150/DTS/Binn/lld-link.com"
+      - "C:/Program Files/Microsoft SQL Server/150/DTS/Binn/lld-link.exe"
+      - "C:/Program Files/Microsoft SQL Server/150/DTS/Binn/lld-link"
+      - "C:/Program Files (x86)/Windows Kits/8.1/Windows Performance Toolkit/lld-link.com"
+      - "C:/Program Files (x86)/Windows Kits/8.1/Windows Performance Toolkit/lld-link.exe"
+      - "C:/Program Files (x86)/Windows Kits/8.1/Windows Performance Toolkit/lld-link"
+      - "D:/Anaconda/lld-link.com"
+      - "D:/Anaconda/lld-link.exe"
+      - "D:/Anaconda/lld-link"
+      - "D:/Anaconda/Scripts/lld-link.com"
+      - "D:/Anaconda/Scripts/lld-link.exe"
+      - "D:/Anaconda/Scripts/lld-link"
+      - "D:/Anaconda/Library/bin/lld-link.com"
+      - "D:/Anaconda/Library/bin/lld-link.exe"
+      - "D:/Anaconda/Library/bin/lld-link"
+      - "D:/Git/cmd/lld-link.com"
+      - "D:/Git/cmd/lld-link.exe"
+      - "D:/Git/cmd/lld-link"
+      - "C:/Program Files/Docker/Docker/resources/bin/lld-link.com"
+      - "C:/Program Files/Docker/Docker/resources/bin/lld-link.exe"
+      - "C:/Program Files/Docker/Docker/resources/bin/lld-link"
+      - "D:/Windows Kits/10/Windows Performance Toolkit/lld-link.com"
+      - "D:/Windows Kits/10/Windows Performance Toolkit/lld-link.exe"
+      - "D:/Windows Kits/10/Windows Performance Toolkit/lld-link"
+      - "C:/Program Files/CMake/bin/lld-link.com"
+      - "C:/Program Files/CMake/bin/lld-link.exe"
+      - "C:/Program Files/CMake/bin/lld-link"
+      - "C:/Users/\u0426\u0435\u0446\u043e/.pyenv/pyenv-win/bin/lld-link.com"
+      - "C:/Users/\u0426\u0435\u0446\u043e/.pyenv/pyenv-win/bin/lld-link.exe"
+      - "C:/Users/\u0426\u0435\u0446\u043e/.pyenv/pyenv-win/bin/lld-link"
+      - "C:/Users/\u0426\u0435\u0446\u043e/.pyenv/pyenv-win/shims/lld-link.com"
+      - "C:/Users/\u0426\u0435\u0446\u043e/.pyenv/pyenv-win/shims/lld-link.exe"
+      - "C:/Users/\u0426\u0435\u0446\u043e/.pyenv/pyenv-win/shims/lld-link"
+      - "D:/Python/Scripts/lld-link.com"
+      - "D:/Python/Scripts/lld-link.exe"
+      - "D:/Python/Scripts/lld-link"
+      - "D:/Python/lld-link.com"
+      - "D:/Python/lld-link.exe"
+      - "D:/Python/lld-link"
+      - "C:/Users/\u0426\u0435\u0446\u043e/AppData/Local/Microsoft/WindowsApps/lld-link.com"
+      - "C:/Users/\u0426\u0435\u0446\u043e/AppData/Local/Microsoft/WindowsApps/lld-link.exe"
+      - "C:/Users/\u0426\u0435\u0446\u043e/AppData/Local/Microsoft/WindowsApps/lld-link"
+      - "C:/Users/\u0426\u0435\u0446\u043e/.dotnet/tools/lld-link.com"
+      - "C:/Users/\u0426\u0435\u0446\u043e/.dotnet/tools/lld-link.exe"
+      - "C:/Users/\u0426\u0435\u0446\u043e/.dotnet/tools/lld-link"
+      - "C:/Users/\u0426\u0435\u0446\u043e/AppData/Local/Programs/Microsoft VS Code/bin/lld-link.com"
+      - "C:/Users/\u0426\u0435\u0446\u043e/AppData/Local/Programs/Microsoft VS Code/bin/lld-link.exe"
+      - "C:/Users/\u0426\u0435\u0446\u043e/AppData/Local/Programs/Microsoft VS Code/bin/lld-link"
+      - "C:/Users/\u0426\u0435\u0446\u043e/AppData/Roaming/npm/lld-link.com"
+      - "C:/Users/\u0426\u0435\u0446\u043e/AppData/Roaming/npm/lld-link.exe"
+      - "C:/Users/\u0426\u0435\u0446\u043e/AppData/Roaming/npm/lld-link"
+      - "D:/PyCharm Community Edition 2022.2.3/bin/lld-link.com"
+      - "D:/PyCharm Community Edition 2022.2.3/bin/lld-link.exe"
+      - "D:/PyCharm Community Edition 2022.2.3/bin/lld-link"
+      - "C:/ProgramData/Microsoft/Windows/Start Menu/Programs/Git/lld-link.com"
+      - "C:/ProgramData/Microsoft/Windows/Start Menu/Programs/Git/lld-link.exe"
+      - "C:/ProgramData/Microsoft/Windows/Start Menu/Programs/Git/lld-link"
+      - "D:/cursor/resources/app/bin/lld-link.com"
+      - "D:/cursor/resources/app/bin/lld-link.exe"
+      - "D:/cursor/resources/app/bin/lld-link"
+      - "C:/Program Files/bin/lld-link.com"
+      - "C:/Program Files/bin/lld-link.exe"
+      - "C:/Program Files/bin/lld-link"
+      - "C:/Program Files/sbin/lld-link.com"
+      - "C:/Program Files/sbin/lld-link.exe"
+      - "C:/Program Files/sbin/lld-link"
+      - "C:/Program Files/lld-link.com"
+      - "C:/Program Files/lld-link.exe"
+      - "C:/Program Files/lld-link"
+      - "C:/Program Files (x86)/bin/lld-link.com"
+      - "C:/Program Files (x86)/bin/lld-link.exe"
+      - "C:/Program Files (x86)/bin/lld-link"
+      - "C:/Program Files (x86)/sbin/lld-link.com"
+      - "C:/Program Files (x86)/sbin/lld-link.exe"
+      - "C:/Program Files (x86)/sbin/lld-link"
+      - "C:/Program Files (x86)/lld-link.com"
+      - "C:/Program Files (x86)/lld-link.exe"
+      - "C:/Program Files (x86)/lld-link"
+      - "C:/Program Files/CMake/bin/lld-link.com"
+      - "C:/Program Files/CMake/bin/lld-link.exe"
+      - "C:/Program Files/CMake/bin/lld-link"
+      - "C:/Program Files/CMake/sbin/lld-link.com"
+      - "C:/Program Files/CMake/sbin/lld-link.exe"
+      - "C:/Program Files/CMake/sbin/lld-link"
+      - "C:/Program Files/CMake/lld-link.com"
+      - "C:/Program Files/CMake/lld-link.exe"
+      - "C:/Program Files/CMake/lld-link"
+      - "C:/Program Files (x86)/ClockSimulation/bin/lld-link.com"
+      - "C:/Program Files (x86)/ClockSimulation/bin/lld-link.exe"
+      - "C:/Program Files (x86)/ClockSimulation/bin/lld-link"
+      - "C:/Program Files (x86)/ClockSimulation/sbin/lld-link.com"
+      - "C:/Program Files (x86)/ClockSimulation/sbin/lld-link.exe"
+      - "C:/Program Files (x86)/ClockSimulation/sbin/lld-link"
+      - "C:/Program Files (x86)/ClockSimulation/lld-link.com"
+      - "C:/Program Files (x86)/ClockSimulation/lld-link.exe"
+      - "C:/Program Files (x86)/ClockSimulation/lld-link"
+    found: false
+    search_context:
+      ENV{PATH}:
+        - "D:\\Anaconda\\condabin"
+        - "C:\\Windows\\system32"
+        - "C:\\Windows"
+        - "C:\\Windows\\System32\\Wbem"
+        - "C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\"
+        - "C:\\Windows\\System32\\OpenSSH\\"
+        - "C:\\Program Files\\dotnet\\"
+        - "C:\\Program Files\\nodejs\\"
+        - "C:\\Program Files\\Microsoft SQL Server\\Client SDK\\ODBC\\170\\Tools\\Binn\\"
+        - "C:\\Program Files (x86)\\Microsoft SQL Server\\150\\Tools\\Binn\\"
+        - "C:\\Program Files\\Microsoft SQL Server\\150\\Tools\\Binn\\"
+        - "C:\\Program Files\\Microsoft SQL Server\\150\\DTS\\Binn\\"
+        - "C:\\Program Files (x86)\\Windows Kits\\8.1\\Windows Performance Toolkit\\"
+        - "D:\\Anaconda"
+        - "D:\\Anaconda\\Scripts"
+        - "D:\\Anaconda\\Library\\bin"
+        - "D:\\Git\\cmd"
+        - "C:\\Program Files\\Docker\\Docker\\resources\\bin"
+        - "D:\\Windows Kits\\10\\Windows Performance Toolkit\\"
+        - "C:\\Program Files\\CMake\\bin"
+        - "C:\\Users\\\u0426\u0435\u0446\u043e\\.pyenv\\pyenv-win\\bin"
+        - "C:\\Users\\\u0426\u0435\u0446\u043e\\.pyenv\\pyenv-win\\shims"
+        - "D:\\Python\\Scripts\\"
+        - "D:\\Python\\"
+        - "C:\\Users\\\u0426\u0435\u0446\u043e\\AppData\\Local\\Microsoft\\WindowsApps"
+        - "C:\\Users\\\u0426\u0435\u0446\u043e\\.dotnet\\tools"
+        - "C:\\Users\\\u0426\u0435\u0446\u043e\\AppData\\Local\\Programs\\Microsoft VS Code\\bin"
+        - "C:\\Users\\\u0426\u0435\u0446\u043e\\AppData\\Roaming\\npm"
+        - "D:\\PyCharm Community Edition 2022.2.3\\bin"
+        - "C:\\ProgramData\\Microsoft\\Windows\\Start Menu\\Programs\\Git"
+        - "C:\\Users\\\u0426\u0435\u0446\u043e\\.dotnet\\tools"
+        - "D:\\cursor\\resources\\app\\bin"
+      CMAKE_INSTALL_PREFIX: "C:/Program Files (x86)/ClockSimulation"
+      CMAKE_SYSTEM_PREFIX_PATH:
+        - "C:/Program Files"
+        - "C:/Program Files (x86)"
+        - "C:/Program Files/CMake"
+        - "C:/Program Files (x86)/ClockSimulation"
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-4.2/Modules/CMakeDetermineCompilerABI.cmake:83 (try_compile)"
+      - "C:/Program Files/CMake/share/cmake-4.2/Modules/CMakeTestCCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "build/_deps/glfw-src/CMakeLists.txt:3 (project)"
+    checks:
+      - "Detecting C compiler ABI info"
+    directories:
+      source: "C:/Users/\u0426\u0435\u0446\u043e/Desktop/clock/build/CMakeFiles/CMakeScratch/TryCompile-okidp4"
+      binary: "C:/Users/\u0426\u0435\u0446\u043e/Desktop/clock/build/CMakeFiles/CMakeScratch/TryCompile-okidp4"
+    cmakeVariables:
+      CMAKE_C_FLAGS: "/DWIN32 /D_WINDOWS"
+      CMAKE_C_FLAGS_DEBUG: "/Zi /Ob0 /Od /RTC1"
+      CMAKE_EXE_LINKER_FLAGS: "/machine:x64"
+    buildResult:
+      variable: "CMAKE_C_ABI_COMPILED"
+      cached: true
+      stdout: |
+        Change Dir: 'C:/Users/Цецо/Desktop/clock/build/CMakeFiles/CMakeScratch/TryCompile-okidp4'
+        
+        Run Build Command(s): "C:/Program Files/Microsoft Visual Studio/2022/Community/MSBuild/Current/Bin/amd64/MSBuild.exe" cmTC_f0415.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=17.0 /v:n
+        MSBuild version 17.13.19+0d9f5a35a for .NET Framework
+        Build started 30.11.2025 ╨│. 12:35:41.
+        
+        Project "C:\\Users\\╨ж╨╡╤Ж╨╛\\Desktop\\clock\\build\\CMakeFiles\\CMakeScratch\\TryCompile-okidp4\\cmTC_f0415.vcxproj" on node 1 (default targets).
+        PrepareForBuild:
+          Structured output is enabled. The formatting of compiler diagnostics will reflect the error hierarchy. See https://aka.ms/cpp/structured-output for more details.
+          Creating directory "C:\\Users\\╨ж╨╡╤Ж╨╛\\Desktop\\clock\\build\\CMakeFiles\\CMakeScratch\\TryCompile-okidp4\\Debug\\".
+          Creating directory "cmTC_f0415.dir\\Debug\\cmTC_f0415.tlog\\".
+        InitializeBuildStatus:
+          Creating "cmTC_f0415.dir\\Debug\\cmTC_f0415.tlog\\unsuccessfulbuild" because "AlwaysCreate" was specified.
+          Touching "cmTC_f0415.dir\\Debug\\cmTC_f0415.tlog\\unsuccessfulbuild".
+        ClCompile:
+          C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.43.34808\\bin\\HostX64\\x64\\CL.exe /c /Zi /W1 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D _MBCS /D "CMAKE_INTDIR=\\"Debug\\"" /RTC1 /MDd /Fo"cmTC_f0415.dir\\Debug\\\\" /Fd"cmTC_f0415.dir\\Debug\\vc143.pdb" /external:W1 /TC /errorReport:queue "C:\\Program Files\\CMake\\share\\cmake-4.2\\Modules\\CMakeCCompilerABI.c"
+          Microsoft (R) C/C++ Optimizing Compiler Version 19.43.34809 for x64
+          Copyright (C) Microsoft Corporation.  All rights reserved.
+          cl /c /Zi /W1 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D _MBCS /D "CMAKE_INTDIR=\\"Debug\\"" /RTC1 /MDd /Fo"cmTC_f0415.dir\\Debug\\\\" /Fd"cmTC_f0415.dir\\Debug\\vc143.pdb" /external:W1 /TC /errorReport:queue "C:\\Program Files\\CMake\\share\\cmake-4.2\\Modules\\CMakeCCompilerABI.c"
+          CMakeCCompilerABI.c
+        Link:
+          C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.43.34808\\bin\\HostX64\\x64\\link.exe /OUT:"C:\\Users\\╨ж╨╡╤Ж╨╛\\Desktop\\clock\\build\\CMakeFiles\\CMakeScratch\\TryCompile-okidp4\\Debug\\cmTC_f0415.exe" /INCREMENTAL /ILK:"cmTC_f0415.dir\\Debug\\cmTC_f0415.ilk" /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:/Users/╨ж╨╡╤Ж╨╛/Desktop/clock/build/CMakeFiles/CMakeScratch/TryCompile-okidp4/Debug/cmTC_f0415.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /IMPLIB:"C:/Users/╨ж╨╡╤Ж╨╛/Desktop/clock/build/CMakeFiles/CMakeScratch/TryCompile-okidp4/Debug/cmTC_f0415.lib" /MACHINE:X64  /machine:x64 cmTC_f0415.dir\\Debug\\CMakeCCompilerABI.obj
+          cmTC_f0415.vcxproj -> C:\\Users\\╨ж╨╡╤Ж╨╛\\Desktop\\clock\\build\\CMakeFiles\\CMakeScratch\\TryCompile-okidp4\\Debug\\cmTC_f0415.exe
+        FinalizeBuildStatus:
+          Deleting file "cmTC_f0415.dir\\Debug\\cmTC_f0415.tlog\\unsuccessfulbuild".
+          Touching "cmTC_f0415.dir\\Debug\\cmTC_f0415.tlog\\cmTC_f0415.lastbuildstate".
+        Done Building Project "C:\\Users\\╨ж╨╡╤Ж╨╛\\Desktop\\clock\\build\\CMakeFiles\\CMakeScratch\\TryCompile-okidp4\\cmTC_f0415.vcxproj" (default targets).
+        
+        Build succeeded.
+            0 Warning(s)
+            0 Error(s)
+        
+        Time Elapsed 00:00:00.56
+        
+      exitCode: 0
+  -
+    kind: "message-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-4.2/Modules/CMakeDetermineCompilerABI.cmake:253 (message)"
+      - "C:/Program Files/CMake/share/cmake-4.2/Modules/CMakeTestCCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "build/_deps/glfw-src/CMakeLists.txt:3 (project)"
+    message: |
+      Parsed C implicit link information:
+        link line regex: [^( *|.*[/\\])(ld[0-9]*(|\\.[a-rt-z][a-z]*|\\.s[a-np-z][a-z]*|\\.so[a-z]+)|link\\.exe|lld-link(\\.exe)?|CMAKE_LINK_STARTFILE-NOTFOUND|([^/\\]+-)?ld|collect2)[^/\\]*( |$)]
+        linker tool regex: [^[ 	]*(->|"|[0-9]+>[ 	-]*Build:[ 	0-9]+ ms[ 	]*)?[ 	]*(([^"]*[/\\])?(ld[0-9]*(|\\.[a-rt-z][a-z]*|\\.s[a-np-z][a-z]*|\\.so[a-z]+)|link\\.exe|lld-link(\\.exe)?))("|,| |$)]
+        linker tool for 'C': C:/Program Files/Microsoft Visual Studio/2022/Community/VC/Tools/MSVC/14.43.34808/bin/HostX64/x64/link.exe
+        implicit libs: []
+        implicit objs: []
+        implicit dirs: []
+        implicit fwks: []
+      
+      
+  -
+    kind: "message-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-4.2/Modules/Internal/CMakeDetermineLinkerId.cmake:38 (message)"
+      - "C:/Program Files/CMake/share/cmake-4.2/Modules/CMakeDetermineCompilerABI.cmake:299 (cmake_determine_linker_id)"
+      - "C:/Program Files/CMake/share/cmake-4.2/Modules/CMakeTestCCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "build/_deps/glfw-src/CMakeLists.txt:3 (project)"
+    message: |
+      Running the C compiler's linker: "C:/Program Files/Microsoft Visual Studio/2022/Community/VC/Tools/MSVC/14.43.34808/bin/HostX64/x64/link.exe" "-v"
+      Microsoft (R) Incremental Linker Version 14.43.34809.0
+      Copyright (C) Microsoft Corporation.  All rights reserved.
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-4.2/Modules/Internal/CheckSourceCompiles.cmake:104 (try_compile)"
+      - "C:/Program Files/CMake/share/cmake-4.2/Modules/CheckCSourceCompiles.cmake:103 (cmake_check_source_compiles)"
+      - "C:/Program Files/CMake/share/cmake-4.2/Modules/FindThreads.cmake:160 (check_c_source_compiles)"
+      - "C:/Program Files/CMake/share/cmake-4.2/Modules/FindThreads.cmake:226 (_threads_check_libc)"
+      - "build/_deps/glfw-src/CMakeLists.txt:60 (find_package)"
+    checks:
+      - "Performing Test CMAKE_HAVE_LIBC_PTHREAD"
+    directories:
+      source: "C:/Users/\u0426\u0435\u0446\u043e/Desktop/clock/build/CMakeFiles/CMakeScratch/TryCompile-fxq9x3"
+      binary: "C:/Users/\u0426\u0435\u0446\u043e/Desktop/clock/build/CMakeFiles/CMakeScratch/TryCompile-fxq9x3"
+    cmakeVariables:
+      CMAKE_C_FLAGS: "/DWIN32 /D_WINDOWS"
+      CMAKE_C_FLAGS_DEBUG: "/Zi /Ob0 /Od /RTC1"
+      CMAKE_EXE_LINKER_FLAGS: "/machine:x64"
+      CMAKE_MODULE_PATH: "C:/Users/\u0426\u0435\u0446\u043e/Desktop/clock/build/_deps/glfw-src/CMake/modules"
+    buildResult:
+      variable: "CMAKE_HAVE_LIBC_PTHREAD"
+      cached: true
+      stdout: |
+        Change Dir: 'C:/Users/Цецо/Desktop/clock/build/CMakeFiles/CMakeScratch/TryCompile-fxq9x3'
+        
+        Run Build Command(s): "C:/Program Files/Microsoft Visual Studio/2022/Community/MSBuild/Current/Bin/amd64/MSBuild.exe" cmTC_5d62c.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=17.0 /v:n
+        MSBuild version 17.13.19+0d9f5a35a for .NET Framework
+        Build started 30.11.2025 ╨│. 12:35:42.
+        
+        Project "C:\\Users\\╨ж╨╡╤Ж╨╛\\Desktop\\clock\\build\\CMakeFiles\\CMakeScratch\\TryCompile-fxq9x3\\cmTC_5d62c.vcxproj" on node 1 (default targets).
+        PrepareForBuild:
+          Structured output is enabled. The formatting of compiler diagnostics will reflect the error hierarchy. See https://aka.ms/cpp/structured-output for more details.
+          Creating directory "C:\\Users\\╨ж╨╡╤Ж╨╛\\Desktop\\clock\\build\\CMakeFiles\\CMakeScratch\\TryCompile-fxq9x3\\Debug\\".
+          Creating directory "cmTC_5d62c.dir\\Debug\\cmTC_5d62c.tlog\\".
+        InitializeBuildStatus:
+          Creating "cmTC_5d62c.dir\\Debug\\cmTC_5d62c.tlog\\unsuccessfulbuild" because "AlwaysCreate" was specified.
+          Touching "cmTC_5d62c.dir\\Debug\\cmTC_5d62c.tlog\\unsuccessfulbuild".
+        ClCompile:
+          C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.43.34808\\bin\\HostX64\\x64\\CL.exe /c /Zi /W1 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D CMAKE_HAVE_LIBC_PTHREAD /D _MBCS /D "CMAKE_INTDIR=\\"Debug\\"" /RTC1 /MDd /Fo"cmTC_5d62c.dir\\Debug\\\\" /Fd"cmTC_5d62c.dir\\Debug\\vc143.pdb" /external:W1 /TC /errorReport:queue "C:\\Users\\╨ж╨╡╤Ж╨╛\\Desktop\\clock\\build\\CMakeFiles\\CMakeScratch\\TryCompile-fxq9x3\\src.c"
+          Microsoft (R) C/C++ Optimizing Compiler Version 19.43.34809 for x64
+          Copyright (C) Microsoft Corporation.  All rights reserved.
+          cl /c /Zi /W1 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D CMAKE_HAVE_LIBC_PTHREAD /D _MBCS /D "CMAKE_INTDIR=\\"Debug\\"" /RTC1 /MDd /Fo"cmTC_5d62c.dir\\Debug\\\\" /Fd"cmTC_5d62c.dir\\Debug\\vc143.pdb" /external:W1 /TC /errorReport:queue "C:\\Users\\╨ж╨╡╤Ж╨╛\\Desktop\\clock\\build\\CMakeFiles\\CMakeScratch\\TryCompile-fxq9x3\\src.c"
+          src.c
+        C:\\Users\\╨ж╨╡╤Ж╨╛\\Desktop\\clock\\build\\CMakeFiles\\CMakeScratch\\TryCompile-fxq9x3\\src.c(1,10): error C1083: Cannot open include file: 'pthread.h': No such file or directory [C:\\Users\\╨ж╨╡╤Ж╨╛\\Desktop\\clock\\build\\CMakeFiles\\CMakeScratch\\TryCompile-fxq9x3\\cmTC_5d62c.vcxproj]
+        Done Building Project "C:\\Users\\╨ж╨╡╤Ж╨╛\\Desktop\\clock\\build\\CMakeFiles\\CMakeScratch\\TryCompile-fxq9x3\\cmTC_5d62c.vcxproj" (default targets) -- FAILED.
+        
+        Build FAILED.
+        
+        "C:\\Users\\╨ж╨╡╤Ж╨╛\\Desktop\\clock\\build\\CMakeFiles\\CMakeScratch\\TryCompile-fxq9x3\\cmTC_5d62c.vcxproj" (default target) (1) ->
+        (ClCompile target) -> 
+          C:\\Users\\╨ж╨╡╤Ж╨╛\\Desktop\\clock\\build\\CMakeFiles\\CMakeScratch\\TryCompile-fxq9x3\\src.c(1,10): error C1083: Cannot open include file: 'pthread.h': No such file or directory [C:\\Users\\╨ж╨╡╤Ж╨╛\\Desktop\\clock\\build\\CMakeFiles\\CMakeScratch\\TryCompile-fxq9x3\\cmTC_5d62c.vcxproj]
+        
+            0 Warning(s)
+            1 Error(s)
+        
+        Time Elapsed 00:00:00.41
+        
+      exitCode: 1
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-4.2/Modules/CheckLibraryExists.cmake:154 (try_compile)"
+      - "C:/Program Files/CMake/share/cmake-4.2/Modules/FindThreads.cmake:175 (check_library_exists)"
+      - "C:/Program Files/CMake/share/cmake-4.2/Modules/FindThreads.cmake:238 (_threads_check_lib)"
+      - "build/_deps/glfw-src/CMakeLists.txt:60 (find_package)"
+    checks:
+      - "Looking for pthread_create in pthreads"
+    directories:
+      source: "C:/Users/\u0426\u0435\u0446\u043e/Desktop/clock/build/CMakeFiles/CMakeScratch/TryCompile-8fmlt3"
+      binary: "C:/Users/\u0426\u0435\u0446\u043e/Desktop/clock/build/CMakeFiles/CMakeScratch/TryCompile-8fmlt3"
+    cmakeVariables:
+      CMAKE_C_FLAGS: "/DWIN32 /D_WINDOWS"
+      CMAKE_C_FLAGS_DEBUG: "/Zi /Ob0 /Od /RTC1"
+      CMAKE_EXE_LINKER_FLAGS: "/machine:x64"
+      CMAKE_MODULE_PATH: "C:/Users/\u0426\u0435\u0446\u043e/Desktop/clock/build/_deps/glfw-src/CMake/modules"
+    buildResult:
+      variable: "CMAKE_HAVE_PTHREADS_CREATE"
+      cached: true
+      stdout: |
+        Change Dir: 'C:/Users/Цецо/Desktop/clock/build/CMakeFiles/CMakeScratch/TryCompile-8fmlt3'
+        
+        Run Build Command(s): "C:/Program Files/Microsoft Visual Studio/2022/Community/MSBuild/Current/Bin/amd64/MSBuild.exe" cmTC_b9f2c.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=17.0 /v:n
+        MSBuild version 17.13.19+0d9f5a35a for .NET Framework
+        Build started 30.11.2025 ╨│. 12:35:43.
+        
+        Project "C:\\Users\\╨ж╨╡╤Ж╨╛\\Desktop\\clock\\build\\CMakeFiles\\CMakeScratch\\TryCompile-8fmlt3\\cmTC_b9f2c.vcxproj" on node 1 (default targets).
+        PrepareForBuild:
+          Structured output is enabled. The formatting of compiler diagnostics will reflect the error hierarchy. See https://aka.ms/cpp/structured-output for more details.
+          Creating directory "C:\\Users\\╨ж╨╡╤Ж╨╛\\Desktop\\clock\\build\\CMakeFiles\\CMakeScratch\\TryCompile-8fmlt3\\Debug\\".
+          Creating directory "cmTC_b9f2c.dir\\Debug\\cmTC_b9f2c.tlog\\".
+        InitializeBuildStatus:
+          Creating "cmTC_b9f2c.dir\\Debug\\cmTC_b9f2c.tlog\\unsuccessfulbuild" because "AlwaysCreate" was specified.
+          Touching "cmTC_b9f2c.dir\\Debug\\cmTC_b9f2c.tlog\\unsuccessfulbuild".
+        ClCompile:
+          C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.43.34808\\bin\\HostX64\\x64\\CL.exe /c /Zi /W1 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D CHECK_FUNCTION_EXISTS=pthread_create /D _MBCS /D "CMAKE_INTDIR=\\"Debug\\"" /RTC1 /MDd /Fo"cmTC_b9f2c.dir\\Debug\\\\" /Fd"cmTC_b9f2c.dir\\Debug\\vc143.pdb" /external:W1 /TC /errorReport:queue "C:\\Users\\╨ж╨╡╤Ж╨╛\\Desktop\\clock\\build\\CMakeFiles\\CMakeScratch\\TryCompile-8fmlt3\\CheckFunctionExists.c"
+          Microsoft (R) C/C++ Optimizing Compiler Version 19.43.34809 for x64
+          Copyright (C) Microsoft Corporation.  All rights reserved.
+          cl /c /Zi /W1 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D CHECK_FUNCTION_EXISTS=pthread_create /D _MBCS /D "CMAKE_INTDIR=\\"Debug\\"" /RTC1 /MDd /Fo"cmTC_b9f2c.dir\\Debug\\\\" /Fd"cmTC_b9f2c.dir\\Debug\\vc143.pdb" /external:W1 /TC /errorReport:queue "C:\\Users\\╨ж╨╡╤Ж╨╛\\Desktop\\clock\\build\\CMakeFiles\\CMakeScratch\\TryCompile-8fmlt3\\CheckFunctionExists.c"
+          CheckFunctionExists.c
+        Link:
+          C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.43.34808\\bin\\HostX64\\x64\\link.exe /OUT:"C:\\Users\\╨ж╨╡╤Ж╨╛\\Desktop\\clock\\build\\CMakeFiles\\CMakeScratch\\TryCompile-8fmlt3\\Debug\\cmTC_b9f2c.exe" /INCREMENTAL /ILK:"cmTC_b9f2c.dir\\Debug\\cmTC_b9f2c.ilk" /NOLOGO pthreads.lib kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:/Users/╨ж╨╡╤Ж╨╛/Desktop/clock/build/CMakeFiles/CMakeScratch/TryCompile-8fmlt3/Debug/cmTC_b9f2c.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /IMPLIB:"C:/Users/╨ж╨╡╤Ж╨╛/Desktop/clock/build/CMakeFiles/CMakeScratch/TryCompile-8fmlt3/Debug/cmTC_b9f2c.lib" /MACHINE:X64  /machine:x64 cmTC_b9f2c.dir\\Debug\\CheckFunctionExists.obj
+        LINK : fatal error LNK1104: cannot open file 'pthreads.lib' [C:\\Users\\╨ж╨╡╤Ж╨╛\\Desktop\\clock\\build\\CMakeFiles\\CMakeScratch\\TryCompile-8fmlt3\\cmTC_b9f2c.vcxproj]
+        Done Building Project "C:\\Users\\╨ж╨╡╤Ж╨╛\\Desktop\\clock\\build\\CMakeFiles\\CMakeScratch\\TryCompile-8fmlt3\\cmTC_b9f2c.vcxproj" (default targets) -- FAILED.
+        
+        Build FAILED.
+        
+        "C:\\Users\\╨ж╨╡╤Ж╨╛\\Desktop\\clock\\build\\CMakeFiles\\CMakeScratch\\TryCompile-8fmlt3\\cmTC_b9f2c.vcxproj" (default target) (1) ->
+        (Link target) -> 
+          LINK : fatal error LNK1104: cannot open file 'pthreads.lib' [C:\\Users\\╨ж╨╡╤Ж╨╛\\Desktop\\clock\\build\\CMakeFiles\\CMakeScratch\\TryCompile-8fmlt3\\cmTC_b9f2c.vcxproj]
+        
+            0 Warning(s)
+            1 Error(s)
+        
+        Time Elapsed 00:00:00.43
+        
+      exitCode: 1
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-4.2/Modules/CheckLibraryExists.cmake:154 (try_compile)"
+      - "C:/Program Files/CMake/share/cmake-4.2/Modules/FindThreads.cmake:175 (check_library_exists)"
+      - "C:/Program Files/CMake/share/cmake-4.2/Modules/FindThreads.cmake:239 (_threads_check_lib)"
+      - "build/_deps/glfw-src/CMakeLists.txt:60 (find_package)"
+    checks:
+      - "Looking for pthread_create in pthread"
+    directories:
+      source: "C:/Users/\u0426\u0435\u0446\u043e/Desktop/clock/build/CMakeFiles/CMakeScratch/TryCompile-jhg7i5"
+      binary: "C:/Users/\u0426\u0435\u0446\u043e/Desktop/clock/build/CMakeFiles/CMakeScratch/TryCompile-jhg7i5"
+    cmakeVariables:
+      CMAKE_C_FLAGS: "/DWIN32 /D_WINDOWS"
+      CMAKE_C_FLAGS_DEBUG: "/Zi /Ob0 /Od /RTC1"
+      CMAKE_EXE_LINKER_FLAGS: "/machine:x64"
+      CMAKE_MODULE_PATH: "C:/Users/\u0426\u0435\u0446\u043e/Desktop/clock/build/_deps/glfw-src/CMake/modules"
+    buildResult:
+      variable: "CMAKE_HAVE_PTHREAD_CREATE"
+      cached: true
+      stdout: |
+        Change Dir: 'C:/Users/Цецо/Desktop/clock/build/CMakeFiles/CMakeScratch/TryCompile-jhg7i5'
+        
+        Run Build Command(s): "C:/Program Files/Microsoft Visual Studio/2022/Community/MSBuild/Current/Bin/amd64/MSBuild.exe" cmTC_c82c4.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=17.0 /v:n
+        MSBuild version 17.13.19+0d9f5a35a for .NET Framework
+        Build started 30.11.2025 ╨│. 12:35:44.
+        
+        Project "C:\\Users\\╨ж╨╡╤Ж╨╛\\Desktop\\clock\\build\\CMakeFiles\\CMakeScratch\\TryCompile-jhg7i5\\cmTC_c82c4.vcxproj" on node 1 (default targets).
+        PrepareForBuild:
+          Structured output is enabled. The formatting of compiler diagnostics will reflect the error hierarchy. See https://aka.ms/cpp/structured-output for more details.
+          Creating directory "C:\\Users\\╨ж╨╡╤Ж╨╛\\Desktop\\clock\\build\\CMakeFiles\\CMakeScratch\\TryCompile-jhg7i5\\Debug\\".
+          Creating directory "cmTC_c82c4.dir\\Debug\\cmTC_c82c4.tlog\\".
+        InitializeBuildStatus:
+          Creating "cmTC_c82c4.dir\\Debug\\cmTC_c82c4.tlog\\unsuccessfulbuild" because "AlwaysCreate" was specified.
+          Touching "cmTC_c82c4.dir\\Debug\\cmTC_c82c4.tlog\\unsuccessfulbuild".
+        ClCompile:
+          C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.43.34808\\bin\\HostX64\\x64\\CL.exe /c /Zi /W1 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D CHECK_FUNCTION_EXISTS=pthread_create /D _MBCS /D "CMAKE_INTDIR=\\"Debug\\"" /RTC1 /MDd /Fo"cmTC_c82c4.dir\\Debug\\\\" /Fd"cmTC_c82c4.dir\\Debug\\vc143.pdb" /external:W1 /TC /errorReport:queue "C:\\Users\\╨ж╨╡╤Ж╨╛\\Desktop\\clock\\build\\CMakeFiles\\CMakeScratch\\TryCompile-jhg7i5\\CheckFunctionExists.c"
+          Microsoft (R) C/C++ Optimizing Compiler Version 19.43.34809 for x64
+          Copyright (C) Microsoft Corporation.  All rights reserved.
+          cl /c /Zi /W1 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D CHECK_FUNCTION_EXISTS=pthread_create /D _MBCS /D "CMAKE_INTDIR=\\"Debug\\"" /RTC1 /MDd /Fo"cmTC_c82c4.dir\\Debug\\\\" /Fd"cmTC_c82c4.dir\\Debug\\vc143.pdb" /external:W1 /TC /errorReport:queue "C:\\Users\\╨ж╨╡╤Ж╨╛\\Desktop\\clock\\build\\CMakeFiles\\CMakeScratch\\TryCompile-jhg7i5\\CheckFunctionExists.c"
+          CheckFunctionExists.c
+        Link:
+          C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.43.34808\\bin\\HostX64\\x64\\link.exe /OUT:"C:\\Users\\╨ж╨╡╤Ж╨╛\\Desktop\\clock\\build\\CMakeFiles\\CMakeScratch\\TryCompile-jhg7i5\\Debug\\cmTC_c82c4.exe" /INCREMENTAL /ILK:"cmTC_c82c4.dir\\Debug\\cmTC_c82c4.ilk" /NOLOGO pthread.lib kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:/Users/╨ж╨╡╤Ж╨╛/Desktop/clock/build/CMakeFiles/CMakeScratch/TryCompile-jhg7i5/Debug/cmTC_c82c4.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /IMPLIB:"C:/Users/╨ж╨╡╤Ж╨╛/Desktop/clock/build/CMakeFiles/CMakeScratch/TryCompile-jhg7i5/Debug/cmTC_c82c4.lib" /MACHINE:X64  /machine:x64 cmTC_c82c4.dir\\Debug\\CheckFunctionExists.obj
+        LINK : fatal error LNK1104: cannot open file 'pthread.lib' [C:\\Users\\╨ж╨╡╤Ж╨╛\\Desktop\\clock\\build\\CMakeFiles\\CMakeScratch\\TryCompile-jhg7i5\\cmTC_c82c4.vcxproj]
+        Done Building Project "C:\\Users\\╨ж╨╡╤Ж╨╛\\Desktop\\clock\\build\\CMakeFiles\\CMakeScratch\\TryCompile-jhg7i5\\cmTC_c82c4.vcxproj" (default targets) -- FAILED.
+        
+        Build FAILED.
+        
+        "C:\\Users\\╨ж╨╡╤Ж╨╛\\Desktop\\clock\\build\\CMakeFiles\\CMakeScratch\\TryCompile-jhg7i5\\cmTC_c82c4.vcxproj" (default target) (1) ->
+        (Link target) -> 
+          LINK : fatal error LNK1104: cannot open file 'pthread.lib' [C:\\Users\\╨ж╨╡╤Ж╨╛\\Desktop\\clock\\build\\CMakeFiles\\CMakeScratch\\TryCompile-jhg7i5\\cmTC_c82c4.vcxproj]
+        
+            0 Warning(s)
+            1 Error(s)
+        
+        Time Elapsed 00:00:00.42
+        
+      exitCode: 1
+...
